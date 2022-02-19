@@ -1,6 +1,7 @@
 @import 'vars';
 @import 'fonts';
 @import 'reset';
+@import 'libs';
 @import 'global';
 
 .header{
@@ -136,6 +137,81 @@
       }
     }
   }
+  &-stations{
+    position: relative;
+    &__item{
+      height: 570px;
+      &-inner{
+        height: 570px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      &--main{
+      background-image: url('../images/stations/main.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+     &--museum{
+      background-image: url('../images/stations/museum.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+     &--cathedral{
+      background-image: url('../images/stations/cathedral.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+     &--park{
+      background-image: url('../images/stations/park.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    &-title{
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 59px;
+      color: $bg;
+      font-family: 'Raleway', sans-serif;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+  }
+    &-text{
+      color: $bg;
+      max-width: 803px;
+      margin-bottom: 30px;
+  }
+    }
+    .slick-dots{
+      display: flex;
+      position: absolute;
+      bottom: 25px;
+      left: 50%;
+      transform: translate(-50%,0);
+    & button{
+        font-size: 0;
+        padding: 0;
+    }
+    & li button{
+        width: 40px;
+        height: 10px;
+        border-radius: 10%;
+        border: none;
+        cursor: pointer;
+        background-color: $bg;
+        margin-left: 20px;
+      }
+      & li:nth-child(1) button{
+        margin-left: 0;
+      }
+    & li.slick-active button {
+        background-color: $accent;
+      }
+    }
+  }
 }
-
 @import 'media';

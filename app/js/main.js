@@ -1,4 +1,11 @@
 $(function () {
+  $('.about-stations').slick({
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 7000,
+    speed: 800,
+  });
   function getTimeRemaining(endtime) {
     const total = Date.parse(endtime) - Date.parse(new Date());
     const seconds = Math.floor((total / 1000) % 60);
