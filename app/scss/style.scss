@@ -109,6 +109,33 @@
     }
   }
 }
-
+.about{
+  &-quest{
+    position: relative;
+    &__bg{
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/about-quest-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% center;
+    position: absolute;
+    right: 0;
+    }
+    &__inner{
+      padding: 70px 0 58px;
+    }
+    &__title{
+      margin-bottom: 30px;
+    }
+    &__text{
+      max-width: 500px;
+      margin-bottom: 10px;
+      & + .about-quest__text{
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
 
 @import 'media';
