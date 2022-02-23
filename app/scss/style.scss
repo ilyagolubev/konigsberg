@@ -199,13 +199,21 @@
     }
   }
   &-info{
-    padding: 70px 0;
+    background-image: url('../images/about-info/about-info-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    &__inner{
+      padding: 70px 0;
+    }
     &__items{
       display: flex;
+      justify-content: space-between;
       flex-wrap: wrap;
+      margin-bottom: 43px;
     }
     &__item{
-      width: 390px;
+      width: 370px;
       height: 322px;
       padding: 22px 8px;
       &--time{
@@ -237,6 +245,11 @@
         }
       }
     }
+    &__btn{
+      background-color: transparent;
+      border: 1px solid $bg;
+      margin: 0 auto;
+    }
   }
 }
 .gallery{
@@ -253,9 +266,6 @@
   }
   &__title{
     color: $bg;
-  }
-  &__btn{
-    border: 1px solid $bg;
   }
   &__content{
     background-color: #DFEAF5;
