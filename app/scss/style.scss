@@ -253,7 +253,6 @@
   }
 }
 .gallery{
-  margin-bottom: 70px;
   &__top{
     height: 100px;
     background-color: $accent;
@@ -345,7 +344,6 @@
 }
 .video{
   padding: 122px 0;
-  margin-bottom: 70px;
   display: flex;
   justify-content: center;
   background-image: url('../images/video-bg.jpg');
