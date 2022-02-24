@@ -356,4 +356,64 @@
   background-size: cover;
   background-position: center center;
 }
+.reviews{
+  padding: 50px 0;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title{
+    margin-bottom: 30px;
+  }
+  &__arrows{
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+  &__slick-btn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    & + .reviews__slick-btn{
+      margin-left: 50px;
+    }
+  }
+  &__container{
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+  &__items{
+    margin-bottom: 30px;
+  }
+  &__item{
+    max-width: 370px;
+    text-align: center;
+    margin-left: 15px;
+    &-avatar{
+      margin-bottom: 30px;
+      width: 370px;
+      height: 250px;
+      object-fit: cover;
+    }
+    &-name, &-date{
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      font-family: 'Montserrat',sans-serif;
+      color: $accent;
+      margin-bottom: 10px;
+    }
+    &-stars{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+    }
+    &-star + .reviews__item-star{
+      margin-left: 5px;
+    }
+  }
+  &__btn{
+    margin: 0 auto;
+  }
+}
 @import 'media';
