@@ -45,6 +45,7 @@
     margin-bottom: 30px;
     font-family: Montserrat, sans-serif;
     letter-spacing: 0.02em;
+    text-transform: uppercase;
    }
   &-btn{
     width: 303px;
@@ -98,6 +99,7 @@
 .about{
   &-quest{
     position: relative;
+    background-color: #DFEAF5;
     &__bg{
     width: 50%;
     height: 100%;
@@ -177,7 +179,7 @@
     .slick-dots{
       display: flex;
       position: absolute;
-      bottom: 25px;
+      bottom: 50px;
       left: 50%;
       transform: translate(-50%,0);
     & button{
