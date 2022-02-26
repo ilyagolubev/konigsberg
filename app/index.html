@@ -478,7 +478,7 @@
       <form class="buy__form">
         <div class="buy__form-box">
           <h1 class="buy__form-title title">КУПИТЬ БИЛЕТ</h1>
-           <label class="buy__form-date">
+          <label class="buy__form-date">
             <h2 class="buy__form-input-title">
               Выберите дату посещения
             </h2>
@@ -530,12 +530,35 @@
               <h4 class="buy__form-ticket-amount-title text">
                 Выберите количество билетов
               </h4>
-              <input class="buy__form-ticket-amount-input" type="number"  min="0" max="10" required>
+              <input class="buy__form-ticket-amount-input" type="number" min="0" max="10" required>
             </label>
           </div>
         </div>
       </form>
     </div>
+    </div>
+  </section>
+  <section class="question">
+    <div class="container">
+      <div class="question__inner">
+        <h1 class="question__title title">ВОЗНИКЛИ ВОПРОСЫ?
+        </h1>
+        <h2 class="question__subtitle">
+          Напишите нам!
+        </h2>
+        <form class="question__form">
+          <input class="question__form-input" type="text" placeholder="Имя*" required>
+          <input class="question__form-input" type="text" placeholder="+7 (___) ___-__-__*" required>
+          <input class="question__form-input" type="text" placeholder="E-mail*" required>
+          <textarea class="question__form-textarea" placeholder="Ваш вопрос"></textarea>
+          <div class="question__form-box">
+            <p class="question__form-text text">
+              Отправляя заявку, Вы даете согласие на обработку <span>персональных данных</span>
+            </p>
+            <input class="question__form-btn btn" type="submit" value="Отправить">
+          </div>
+        </form>
+      </div>
     </div>
   </section>
   <script src="js/main.min.js"></script>
