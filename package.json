@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "js-datepicker": "^5.18.0"
   },
   "name": "start-gulp",
   "version": "1.0.0",
@@ -16,6 +17,7 @@
     "gulp-sass": "^5.0.0",
     "gulp-uglify": "^3.0.2",
     "jquery": "^3.6.0",
+    "jquery-form-styler": "^2.0.2",
     "magnific-popup": "^1.1.0",
     "sass": "^1.43.5",
     "slick-carousel": "^1.8.1"

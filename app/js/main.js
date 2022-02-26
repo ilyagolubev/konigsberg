@@ -29,5 +29,15 @@ $(function () {
     arrows: true,
     clickContent: false,
   });
-  
-})
+/*   const picker = datepicker('.datapicker', {
+    formatter: (input, date, instance) => {
+      const value = date.toLocaleDateString()
+      input.value = value
+    },
+    maxDate: new Date(2022, 07, 31),
+    minDate: new Date(2022, 06, 4),
+    startDate: new Date(2022, 06, 4),
+    respectDisabledReadOnly: false
+    }); */
+    $('.buy__form-ticket-amount-input').styler();
+})  
