@@ -6,7 +6,7 @@
 
 .header{
   min-height: 100vh;
-  background-image: url('../images/header-bg.jpg');
+  background-image: url('../images/header/header-bg.jpg');
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -103,7 +103,7 @@
     &__bg{
     width: 50%;
     height: 100%;
-    background-image: url('../images/about-quest-bg.jpg');
+    background-image: url('../images/about/about-quest/about-quest-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% center;
@@ -204,7 +204,7 @@
     }
   }
   &-info{
-    background-image: url('../images/about-info/about-info-bg.jpg');
+    background-image: url('../images/about/about-info/about-info-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -222,13 +222,13 @@
       height: 322px;
       padding: 22px 8px;
       &--time{
-        background-image: url('../images/about-info/time.jpg');
+        background-image: url('../images/about/about-info/time.jpg');
       }
       &--price{
-        background-image: url('../images/about-info/price.jpg');
+        background-image: url('../images/about/about-info/price.jpg');
       }
       &--age{
-        background-image: url('../images/about-info/age.jpg');
+        background-image: url('../images/about/about-info/age.jpg');
       }
       &-content{
         width: 160px;
@@ -346,7 +346,7 @@
   padding: 122px 0;
   display: flex;
   justify-content: center;
-  background-image: url('../images/video-bg.jpg');
+  background-image: url('../images/video/video-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
