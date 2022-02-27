@@ -410,7 +410,104 @@
   &__btn{
     margin: 0 auto;
   }
+  &__popup{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    &-title{
+      margin-bottom: 40px;
+    }
+  }
+  &-form{
+    &__wrapper{
+      display: flex;
+    }
+    &__box{
+      display: flex;
+      flex-direction: column;
+      margin-right: 30px;
+      &--stars{
+        flex-direction: row;
+        margin-bottom: 60px;
+      }
+    }
+    &__input,&__textarea{
+      width: 620px;
+      border: 1px solid #6A7480;
+    }
+    &__input{
+      height: 47px;
+      margin-bottom: 20px;
+    }
+    &__textarea{
+      resize: none;
+      height: 170px;
+      margin-bottom: 30px;
+    }
+    .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+  &__input-file{
+    min-width: 170px;
+    height: 236px;
+    border: 1px solid #6A7480;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    & span{
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 500;
+      color: #6A7480;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 236px;
+      font-family: 'Montserrat',sans-serif;
+      cursor: pointer;
+    }
+  }
+  &__text{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    color: #6A7480;
+    margin-right: 10px;
+  }
+  &__list{
+    display: flex;
+    &-item + .reviews-form__list-item{
+      margin-left: 10px;
+    }
+  }
+  &__btn{
+    width: 350px;
+    height: 70px;
+    border: none;
+    margin: 0 auto;
+  }
+  }
+}
+  #reviews__popup {
+	background: $bg;
+	padding: 60px;
+	max-width: 1170px;
+  height: 600px;
+	margin: 10px auto;
+	position: relative;
+  }
 .buy{
   background-image: url('../images/buy/buy-bg.jpg');
   background-repeat: no-repeat;
