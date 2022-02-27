@@ -44,9 +44,22 @@
               </li>
             </a>
           </ul>
-          <a class="nav__login" href="#">
+          <a class="nav__login" href="#small-dialog">
             ВОЙТИ
           </a>
+          <div class="authorization">
+            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+              <h1 class="authorization__title">Авторизация</h1>
+              <form class="authorization__form">
+                <input type="text" class="authorization__form-input" placeholder="Логин" required>
+                <input type="password" class="authorization__form-input" placeholder="Пароль" required>
+                <div class="authorization__form-box">
+                  <input class="authorization__form-signup " type="button" value="РЕГИСТРАЦИЯ">
+                  <input class="authorization__form-signin " type="submit" value="ВОЙТИ">
+                </div>
+              </form>
+            </div>
+          </div>
         </nav>
         <div class="header__content">
           <h1 class="header__content-title">
