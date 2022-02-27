@@ -889,6 +889,117 @@
     }
   }
 }
+.profile{
+  padding: 30px 0;
+ &__nav{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   .logo{
+     margin-bottom: 30px;
+   }
+  &-list{
+    display: flex;
+    &-link{
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: 600;
+      font-family: 'Montserrat', sans-serif;
+      color: $text;
+      margin-bottom: 30px;
+        & + .profile__nav-list-link{
+          margin-left: 30px;
+      }
+    }
+  } 
+ }
+ &__welcome{
+   text-align: center;
+   margin-bottom: 50px;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 30px;
+   font-family: 'Montserrat', sans-serif;
+   color: $text;
+   & span{
+     color: $accent;
+   }
+ }
+ &__title{
+   font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: $accent;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 34px;
+ }
+ &__box{
+   margin-bottom: 50px;
+ & + .profile__box{
+   margin-left: 77px;
+ }
+ }
+ &__wrapper{
+   display: flex;
+ }
+ &__form{
+   display: flex;
+   flex-direction: column;
+   &-title{
+     font-weight: 500;
+     font-size: 20px;
+     line-height: 22px;
+     font-family: 'Montserrat', sans-serif;
+     color: $text;
+     margin-bottom: 15px;
+   }
+   &-input{
+     width: 376px;
+     height: 50px;
+     border: 1px solid #6A7480;
+     margin-bottom: 30px;
+     &--cvv,&--valid{
+       width: 100px;
+       &::placeholder{
+         text-align: center;
+       }
+     }
+   }
+   &-btn{
+     border: none;
+     cursor: pointer;
+     width: 350px;
+     height: 70px;
+     background-color: $accent;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: $bg;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     font-family: 'Montserrat', sans-serif;
+   }
+   &-logout{
+     width: 270px;
+     height: 70px;
+     border: 1px solid $accent;
+     color: $accent;
+     font-weight: 700;
+     font-size: 20px;
+     line-height: 24px;
+     font-family: 'Montserrat', sans-serif;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
+ }
+ &__box-buttons{
+   display: flex;
+   justify-content: space-between;
+ }
+}
 
 /**
  * Fade-zoom animation for first dialog

@@ -38,6 +38,9 @@ a{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
+input{
+    background-color: $bg;
+}
 input::placeholder, textarea::placeholder{
   padding: 14px 20px;
   font-weight: 500;
