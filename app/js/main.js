@@ -18,7 +18,7 @@ $(function () {
     prevArrow: '<button type="button" class="reviews__slick-btn reviews__slick-prev"><img src="images/reviews/prev.svg" alt="Предыдущий слайд"></button>',
     nextArrow: '<button type="button" class="reviews__slick-btn reviews__slick-next"><img src="images/reviews/next.svg" alt="Следующий слайд"></button>',
   });
-  $('.nav__login').magnificPopup({
+  $('.nav__login, .authorization__form-signup').magnificPopup({
     type: 'inline',
 
     fixedContentPos: true,

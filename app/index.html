@@ -44,21 +44,32 @@
               </li>
             </a>
           </ul>
-          <a class="nav__login" href="#small-dialog">
+          <a class="nav__login" href="#authorization__popup">
             ВОЙТИ
           </a>
           <div class="authorization">
-            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+            <div id="authorization__popup" class="zoom-anim-dialog mfp-hide">
               <h1 class="authorization__title">Авторизация</h1>
               <form class="authorization__form">
                 <input type="text" class="authorization__form-input" placeholder="Логин" required>
                 <input type="password" class="authorization__form-input" placeholder="Пароль" required>
                 <div class="authorization__form-box">
-                  <input class="authorization__form-signup " type="button" value="РЕГИСТРАЦИЯ">
+                  <a class="authorization__form-signup " href="#registration__popup">РЕГИСТРАЦИЯ</a>
                   <input class="authorization__form-signin " type="submit" value="ВОЙТИ">
                 </div>
               </form>
             </div>
+            <div class="registration">
+              <div id="registration__popup" class="zoom-anim-dialog mfp-hide">
+                <h1 class="registration__title">Регистрация</h1>
+                <form class="registration__form">
+                  <input type="text" class="registration__form-input" placeholder="Логин" required>
+                  <input type="password" class="registration__form-input" placeholder="Пароль" required>
+                  <div class="registration__form-box">
+                    <input class="registration__form-signup " type="submit" value="РЕГИСТРАЦИЯ">
+                  </div>
+                </form>
+              </div>
           </div>
         </nav>
         <div class="header__content">
