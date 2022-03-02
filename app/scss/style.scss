@@ -11,7 +11,7 @@
   background-position: top center;
   background-repeat: no-repeat;
   &__inner{
-    padding-top: 43px;
+    padding-top: 20px;
     min-height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -79,6 +79,19 @@
       & + .nav__list-link{
         margin-left: 20px;
       }
+    }
+  }
+  &__burger{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 30px;
+    margin-right: 10px;
+    display: none;
+    order: 1;
+    &--close{
+      display: none;
     }
   }
   &__login{

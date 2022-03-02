@@ -1,0 +1,190 @@
+@media(max-width: 1080px){
+  .header{
+    min-height: calc(var(--vh, 1vh) * 100);
+    &__inner{
+      min-height: calc(var(--vh, 1vh) * 100);
+    }
+  }
+  .nav__list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-200%);
+    width: 100%;
+    transition: all .3s;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: $bg;
+    flex-direction: column;
+    text-align: center;
+    &-link{
+      color: $accent;
+      margin-bottom: 20px;
+      & + .nav__list-link{
+      margin-left: 0;
+    }
+    }
+    &.nav__list--active{
+      transform: translateY(0%);
+      transition: all .3s;
+    }
+  }
+  .logo{
+    z-index: 3;
+    &.logo--active path{
+      fill: $accent;
+    }
+  }
+  .nav__login{
+    margin-left: auto;
+    z-index: 3;
+    &.nav__login--active{
+      border: none;
+      background-color: transparent;
+      min-width: 35px;
+      height: 35px;
+      font-size: 0;
+      margin-top: -4px;
+      background-image: url('../images/header/login-active.svg');
+      background-repeat: no-repeat;
+    }
+  }
+  .nav__burger{
+    display: block;
+    z-index: 3;
+    &.nav__burger--active .nav__burger--open{
+      display: none;
+    }
+        &.nav__burger--active .nav__burger--close{
+      display: block;
+    }
+  }
+}
+@media (max-width: 900px){
+  .header__content{
+    &-title {
+    font-size: 80px;
+    line-height: 98px;
+    & span{
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+  &-slogan{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  &-btn{
+    width: 260px;
+    height: 60px;
+  }
+  }
+}
+
+@media (max-width: 690px){
+  .header__content{
+    &-title {
+    font-size: 70px;
+    line-height: 85px;
+    & span{
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  &-slogan{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  }
+}
+@media (max-width: 550px){
+    .nav__login{
+    margin-left: auto;
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+    min-width: 35px;
+    height: 35px;
+    font-size: 0;
+    margin-top: -4px;
+    background-image: url('../images/header/login.svg');
+    background-repeat: no-repeat;
+  }
+    .header__content{
+      text-align: center;
+    &-title {
+    font-size: 50px;
+    line-height: 61px;
+    & span{
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  &-slogan{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+  &-btn{
+    margin: 0 auto;
+  }
+  }
+}
+@media (max-width: 480px){
+  .nav__list{
+    height: 305px;
+    justify-content: flex-end;
+  }
+    .header__content{
+    &-title {
+    font-size: 50px;
+    line-height: 61px;
+    & span{
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  &-slogan{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &-btn{
+    margin: 0 auto;
+  }
+  }
+}
+@media (max-width: 413px){
+  .header__content{
+    &-title span{
+    font-size: 18px;
+    line-height: 22px;
+    }
+    &-slogan{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  }
+}
+@media (max-width: 390px){
+  .header__content-title{
+    font-size: 45px;
+    line-height: 56px;
+  }
+}
+@media (max-width: 370px){
+  .header__content{
+    &-slogan{
+    font-size: 13px;
+    line-height: 15px;
+  }
+  }
+}
+@media (max-width: 340px){
+  .header__content-title{
+    font-size: 40px;
+    line-height: 48px;
+  }
+}

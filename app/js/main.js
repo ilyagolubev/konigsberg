@@ -1,4 +1,12 @@
 $(function () {
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  $('.nav__burger').on('click', function(){
+    $('.nav__list').toggleClass('nav__list--active');
+    $('.nav__burger').toggleClass('nav__burger--active');
+    $('.nav__login').toggleClass('nav__login--active');
+    $('.logo').toggleClass('logo--active');
+  })
   $('.about-stations').slick({
     arrows: false,
     dots: true,
