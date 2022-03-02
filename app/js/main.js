@@ -46,8 +46,8 @@ $(function () {
     hash: false,
     loop: true,
     keyboard: true,
-    toolbar: false,
-    animationEffect: false,
+    toolbar: true,
+    animationEffect: true,
     arrows: true,
     clickContent: false,
   });
