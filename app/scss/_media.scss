@@ -33,10 +33,6 @@
       &__text{
         max-width: 100%;
       }
-      &__btn{
-        max-width: 100%;
-        width: 100%;
-      }
     }
   }
   .nav__list{
@@ -115,6 +111,14 @@
     height: 60px;
   }
   }
+  .about-quest__btn{
+    max-width: 100%;
+    width: 100%;
+  }
+  .reviews__btn{
+    max-width: 100%;
+    width: 100%;
+  } 
 }
 @media(max-width: 750px){
   .about-stations{
@@ -246,6 +250,9 @@
       }
     }
   }
+  .reviews__item{
+    margin: 0 auto;
+  }
 }
 @media (max-width: 480px){
   .nav__list{
@@ -281,6 +288,11 @@
       }
     }
   }
+  .reviews__slick-btn{
+      & + .reviews__slick-btn{
+        margin-left: 30px;
+      }
+    }
 }
 @media (max-width: 413px){
   .header__content{
@@ -288,6 +300,10 @@
     font-size: 18px;
     line-height: 22px;
     }
+    &-title{
+    font-size: 45px;
+    line-height: 56px;
+  }
     &-slogan{
     font-size: 16px;
     line-height: 20px;
@@ -301,11 +317,8 @@
       }
     }
   }
-}
-@media (max-width: 390px){
-  .header__content-title{
-    font-size: 45px;
-    line-height: 56px;
+  .reviews{
+    padding: 30px 0;
   }
 }
 @media (max-width: 370px){
@@ -313,6 +326,10 @@
     &-slogan{
     font-size: 13px;
     line-height: 15px;
+  }
+  &-title{
+    font-size: 40px;
+    line-height: 48px;
   }
   }
   .about-stations{
@@ -323,10 +340,18 @@
       }
     }
   }
+  .reviews__item{
+    padding: 0 40px;
+  }
+    .reviews__slick-btn{
+      & + .reviews__slick-btn{
+        margin-left: 15px;
+      }
+    }
 }
 @media (max-width: 340px){
   .header__content-title{
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 35px;
+    line-height: 42px;
   }
 }
