@@ -236,14 +236,18 @@
       width: 370px;
       height: 322px;
       padding: 22px 8px;
+      object-fit: cover;
       &--time{
         background-image: url('../images/about/about-info/time.jpg');
+        background-position: center 18%;
       }
       &--price{
         background-image: url('../images/about/about-info/price.jpg');
+        background-position: center;
       }
       &--age{
         background-image: url('../images/about/about-info/age.jpg');
+        background-position: center 40%;
       }
       &-content{
         width: 160px;

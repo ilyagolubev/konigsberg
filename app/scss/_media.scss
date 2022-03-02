@@ -1,3 +1,20 @@
+@media(max-width: 1200px){
+  .about-info{
+    &__item{
+      max-width: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      & + .about-info__item{
+        margin-top: 20px;
+      }
+    }
+    &__btn{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
 @media(max-width: 1080px){
   .header{
     min-height: calc(var(--vh, 1vh) * 100);
