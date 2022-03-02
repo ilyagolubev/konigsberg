@@ -5,6 +5,19 @@
       min-height: calc(var(--vh, 1vh) * 100);
     }
   }
+  @media(max-width: 1050px){
+    .about-quest{
+      &__inner{
+        padding: 40px 0;
+      }
+      &__bg{
+        display: none;
+      }
+      &__text{
+        max-width: 100%;
+      }
+    }
+  }
   .nav__list{
     position: absolute;
     top: 0;
