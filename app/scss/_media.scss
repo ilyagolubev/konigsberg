@@ -54,6 +54,16 @@
       width: 100%;
     }
   }
+  .contacts{
+    background-color: $accent;
+    &__content{
+      width: 100%;
+    }
+    &__map{
+      position: relative;
+      width: 100%;
+    }
+  }
 }
 @media(max-width: 1080px){
   .header{
@@ -311,6 +321,9 @@
   }
   .reviews__item{
     margin: 0 auto;
+  }
+  .contacts__content{
+    padding: 80px 20px 96px;
   }
 }
 @media (max-width: 480px){
