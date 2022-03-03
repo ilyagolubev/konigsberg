@@ -526,19 +526,21 @@
 	position: relative;
   }
 .buy{
+  padding: 70px 0 100px;
   background-image: url('../images/buy/buy-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
   &__form{
-  padding: 70px 0 100px;
   display: flex;
   justify-content: space-between;
   &-box{
     display: flex;
     flex-direction: column;
-    &:nth-child(2){
+    margin-right: 30px;
+    &--tickets{
       flex-direction: row;
+      margin-right: 0;
     }
     }
   &-input-title{
