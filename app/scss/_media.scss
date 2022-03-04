@@ -253,6 +253,24 @@
   }
 }
 @media(max-width: 603px){
+  .authorization{
+    &__form{
+      &-box{
+      flex-direction: column;
+      }
+    &-signup, &-signin{
+      max-width: 100%;
+      width: 100%;
+    }
+    &-signin{
+      order: 1;
+      margin-bottom: 20px;
+    }
+    &-signup{
+      order: 2;
+    }
+  }
+  }
   .about-stations{
     &__item{
       &-title{
@@ -472,6 +490,11 @@
     }
     .buy__form-ticket{
       padding: 39px 10px 50px 10px;
+    }
+    .authorization__form, .registration__form{
+      &-signup, &-signin{
+        font-size: 20px;
+      }
     }
 }
 @media (max-width: 340px){
