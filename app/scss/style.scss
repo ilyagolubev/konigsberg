@@ -492,6 +492,9 @@
       height: 236px;
       font-family: 'Montserrat',sans-serif;
       cursor: pointer;
+      & p{
+        max-width: 155px;
+      }
     }
   }
   &__text{
