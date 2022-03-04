@@ -1031,29 +1031,11 @@
 }
 .profile{
   padding: 30px 0;
- &__nav{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   .logo{
-     margin-bottom: 30px;
-   }
-  &-list{
-    display: flex;
-    &-link{
-      text-transform: uppercase;
-      font-size: 20px;
-      line-height: 24px;
-      font-weight: 600;
-      font-family: 'Montserrat', sans-serif;
-      color: $text;
-      margin-bottom: 30px;
-        & + .profile__nav-list-link{
-          margin-left: 30px;
+    &__logo{
+      &-img{
+        margin: 0 auto 50px;
       }
-    }
-  } 
- }
+   }
  &__welcome{
    text-align: center;
    margin-bottom: 50px;
