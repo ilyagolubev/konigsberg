@@ -45,6 +45,10 @@
       width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
+      &:hover{
+          background-size: 150%;
+          background-position: left center;
+        }
       & + .about-info__item{
         margin-top: 20px;
       }
@@ -492,6 +496,12 @@
         line-height: 19px;
       }
     }
+  }
+  .about-info__item{
+          &:hover{
+          background-size: 400%;
+          background-position: left center;
+        }
   }
   .reviews__slick-btn{
       & + .reviews__slick-btn{
