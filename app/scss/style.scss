@@ -217,6 +217,9 @@
         background-color: $accent;
       }
     }
+    & .btn{
+        animation: none;
+    }
   }
   &-info{
     background-image: url('../images/about/about-info/about-info-bg.jpg');
@@ -1123,21 +1126,6 @@
    justify-content: space-between;
  }
 }
-.header{
-  animation: zoomin 10s ease-in infinite;
-  transition: all .5s ease-in-out;
-}
-/* @keyframes zoomin {
-  0% {
-    background-position: 100px;
-  }
-  50% {
-    background-position: 500px;
-  }
-  100% {
-    background-position: 100px;
-  }
-}  */
 
 .nav__list-link {
   box-shadow: inset 0 0 0 0 $bg;
