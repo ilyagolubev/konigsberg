@@ -932,7 +932,7 @@
 	text-align: center;
 	max-width: 570px;
   height: 570px;
-	margin: 20px auto;
+	margin: 10px auto;
 	position: relative;
   }
 .authorization, .registration{
@@ -1123,6 +1123,64 @@
    justify-content: space-between;
  }
 }
+.header{
+  animation: zoomin 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+}
+/* @keyframes zoomin {
+  0% {
+    background-position: 100px;
+  }
+  50% {
+    background-position: 500px;
+  }
+  100% {
+    background-position: 100px;
+  }
+}  */
+.header__content{
+  animation: appear 2s ease-in-out;
+}
+@keyframes appear{
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.nav__list-link {
+  box-shadow: inset 0 0 0 0 $bg;
+  padding: 0 3px;
+  transition: all .5s;
+  &:hover {
+  box-shadow: inset 127px 0 0 0 $bg;
+  color: $accent;
+}
+}
+.nav__login{
+  transition: all .5s;
+  &:hover{
+    background-color: $accent;
+  }
+}
+.btn{
+  animation: glow 2s infinite;
+}
+@keyframes glow {
+   0% {
+    box-shadow: 1px 0px 19px 4px $accent, inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+   }
+
+  50% {
+    box-shadow: 0px 0px 0px 0px rgba(0, 130, 196, 0), inset 0px 0px 0px rgba(255, 255, 255, 0); 
+  } 
+  100% {
+    box-shadow: 1px 0px 19px 4px $accent, inset 0px 0px 10px rgba(255, 255, 255, 0.5);
+   }
+  }
 
 /**
  * Fade-zoom animation for first dialog
