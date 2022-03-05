@@ -1,4 +1,12 @@
 $(function () {
+  wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 0,
+    mobile: true,
+    live: true
+  })
+  new WOW().init();
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
   $('.nav__burger').on('click', function(){

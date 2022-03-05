@@ -37,6 +37,7 @@ function scripts() {
     'node_modules/magnific-popup/dist/jquery.magnific-popup.js',
 /*     'node_modules/js-datepicker/src/datepicker.js', */
     'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
+    'node_modules/wow.js/dist/wow.js',
     'app/js/main.js'
   ])
   .pipe(concat('main.min.js'))

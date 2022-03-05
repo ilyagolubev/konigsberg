@@ -1138,19 +1138,7 @@
     background-position: 100px;
   }
 }  */
-.header__content{
-  animation: appear 2s ease-in-out;
-}
-@keyframes appear{
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100%{
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
+
 .nav__list-link {
   box-shadow: inset 0 0 0 0 $bg;
   padding: 0 3px;
@@ -1182,6 +1170,22 @@
    }
   }
 
+/* .about-quest__bg{
+  animation: appear__bg 2s ease-in-out;
+}
+.about-quest__inner{
+  animation: appear 2s ease-in-out;
+}
+@keyframes appear__bg{
+  0% {
+    transform: translateX(200%);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
 /**
  * Fade-zoom animation for first dialog
  */
