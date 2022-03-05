@@ -598,6 +598,10 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    animation: glow 1.5s infinite;
+    &:hover .buy__form-ticket-list-item::before{
+      background-color: $accent;
+    }
     & + .buy__form-ticket{
       margin-left: 30px;
     }
@@ -635,6 +639,7 @@
           height: 24px;
           left: 20px;
           border-radius: 50%;
+          transition: all .5s;
           border: 3px solid #1C4685;
         }
       }
