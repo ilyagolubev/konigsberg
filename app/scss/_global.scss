@@ -37,6 +37,7 @@ a{
   line-height: 24px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
+  animation: glow 2s infinite;
 }
 input, textarea{
     background-color: $bg;

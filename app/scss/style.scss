@@ -78,6 +78,13 @@
       font-weight: 600;
       font-family: 'Montserrat', sans-serif;
       color: $bg;
+      box-shadow: inset 0 0 0 0 $bg;
+      padding: 0 3px;
+      transition: all .5s;
+      &:hover {
+      box-shadow: inset 127px 0 0 0 $bg;
+      color: $accent;
+}
       & + .nav__list-link{
         margin-left: 20px;
       }
@@ -110,6 +117,10 @@
     font-family: 'Montserrat', sans-serif;
     color: $bg;
     text-transform: uppercase;
+    transition: all .5s;
+    &:hover{
+    background-color: $accent;
+  }
   }
 }
 .about{
@@ -385,7 +396,7 @@
   background-position: center center;
 }
 .reviews{
-  padding: 50px 0;
+  padding: 30px 0;
   &__inner{
     display: flex;
     justify-content: space-between;
@@ -546,7 +557,7 @@
 	position: relative;
   }
 .buy{
-  padding: 70px 0 100px;
+  padding: 30px 0 60px;
   background-image: url('../images/buy/buy-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -857,16 +868,23 @@
       font-size: 20px;
       line-height: 24px;
       font-weight: 600;
+      color: $accent;
       font-family: 'Montserrat', sans-serif;
-      color: $bg;
+      box-shadow: inset 0 0 0 0 $accent;
+      padding: 0 3px;
+      transition: all .5s;
+        &:hover{
+        box-shadow: inset 127px 0 0 0       $accent;
+        color: $bg;
+}
       & + .footer-nav__list-link{
         margin-left: 20px;
       }
       &-item{
-        color: $accent;
         font-size: 18px;
         line-height: 22px;
       }
+
     }
   }
 }
@@ -1147,24 +1165,6 @@
  }
 }
 
-.nav__list-link {
-  box-shadow: inset 0 0 0 0 $bg;
-  padding: 0 3px;
-  transition: all .5s;
-  &:hover {
-  box-shadow: inset 127px 0 0 0 $bg;
-  color: $accent;
-}
-}
-.nav__login{
-  transition: all .5s;
-  &:hover{
-    background-color: $accent;
-  }
-}
-.btn{
-  animation: glow 2s infinite;
-}
 @keyframes glow {
    0% {
     box-shadow: 1px 0px 19px 4px $accent, inset 0px 0px 10px rgba(255, 255, 255, 0.5);

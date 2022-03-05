@@ -1,4 +1,10 @@
 $(function () {
+  	$(".nav, .nav__list, .footer-top, .footer-nav__list").on("click","a", function (event) {
+		event.preventDefault();
+		var id  = $(this).attr('href'),
+			top = $(id).offset().top;
+		$('body,html').animate({scrollTop: top}, 800);
+	});
   $('.gallery__content-item-link').hover(function(){
     $('.gallery__content-item-link').toggleClass('gallery__content-item-link--active');
     $(this).removeClass('gallery__content-item-link--active');
