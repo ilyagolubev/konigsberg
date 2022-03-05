@@ -794,7 +794,7 @@
   }
   &__content{
   background-color: $accent;
-  padding: 80px 109px 96px 120px;
+  padding: 80px 109px 95px 120px;
   z-index: 4;
   &-title{
     color: $bg;
@@ -832,6 +832,7 @@
     position: absolute;
     right: 0;
     top: 0;
+    bottom: 0;
     z-index: 3;
   }
 }
