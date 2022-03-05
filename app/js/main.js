@@ -1,4 +1,8 @@
 $(function () {
+  $('.gallery__content-item-link').hover(function(){
+    $('.gallery__content-item-link').toggleClass('gallery__content-item-link--active');
+    $(this).removeClass('gallery__content-item-link--active');
+  });
   wow = new WOW({
     boxClass: 'wow',
     animateClass: 'animated',

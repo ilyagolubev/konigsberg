@@ -403,6 +403,9 @@
       &--9{
         grid-area: 11 / 1 / 12 / 3;
       }
+      &-link--active{
+        display: none;
+      }
     }
   }
   .footer-nav__list{
