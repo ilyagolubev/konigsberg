@@ -5,7 +5,7 @@ $(function () {
     $(".nav__login").removeClass("nav__login--active");
     $(".nav__burger").removeClass("nav__burger--active");
   });
-  	$(".nav, .nav__list, .header__content, .about-quest__inner, .about-stations__item, .about-info__inner, .footer-top, .footer-nav__list").on("click","a", function (event) {
+  	$(".nav__list, .header__content, .about-quest__inner, .about-stations__item, .about-info__inner, .footer-top, .footer-nav__list").on("click","a", function (event) {
 		event.preventDefault();
 		var id  = $(this).attr('href'),
 			top = $(id).offset().top;
@@ -63,7 +63,7 @@ $(function () {
 
     midClick: true,
     removalDelay: 300,
-    mainClass: 'my-mfp-zoom-in'
+    mainClass: 'my-mfp-zoom-in',
   });
   $("[data-fancybox]").fancybox({
     thumbs: false,
