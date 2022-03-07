@@ -1,4 +1,10 @@
 $(function () {
+  $(".nav__list-link").on('click', function() {
+    $(".nav__list").removeClass("nav__list--active");
+    $(".logo").removeClass("logo--active");
+    $(".nav__login").removeClass("nav__login--active");
+    $(".nav__burger").removeClass("nav__burger--active");
+  });
   	$(".nav, .nav__list, .header__content, .about-quest__inner, .about-stations__item, .about-info__inner, .footer-top, .footer-nav__list").on("click","a", function (event) {
 		event.preventDefault();
 		var id  = $(this).attr('href'),

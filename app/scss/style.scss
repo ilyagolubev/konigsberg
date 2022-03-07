@@ -840,11 +840,15 @@
   }
   &__map{
     width: 50%;
+    height: 548px;
     position: absolute;
     right: 0;
     top: 0;
     bottom: 0;
     z-index: 3;
+    & iframe{
+    height: 100%;
+    }
   }
 }
 .footer{
@@ -917,6 +921,7 @@
 }
 .error-404{
   min-height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
   background-image: url('../images/404/404-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
