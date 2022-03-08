@@ -1,0 +1,672 @@
+@media(max-width: 1220px){
+  .buy__form{
+    flex-direction: column-reverse;
+    align-items: center;
+    &-box{
+      margin-right: 0;
+      &--inputs{
+      max-width: 770px;
+      width: 100%;
+      }
+      &--tickets{
+      margin-bottom: 45px;
+      }
+    }
+    &-input{
+      max-width: 770px;
+      width: 100%;
+    }
+    &-ticket{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  .question__form-input+.question__form-input {
+    margin-left: 0px;
+}
+.question__form-input{
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}
+.question__form-box{
+  flex-direction: column;
+  align-items: center;
+}
+.question__form-text{
+  margin-bottom: 20px;
+  text-align: center;
+}
+}
+@media(max-width: 1200px){
+  .about-info{
+    &__item{
+      max-width: 100%;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      &:hover{
+          background-size: 150%;
+          background-position: left center;
+        }
+      & + .about-info__item{
+        margin-top: 20px;
+      }
+    }
+    &__btn{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  .contacts{
+    background-color: $accent;
+    &__content{
+      width: 100%;
+    }
+    &__map{
+      position: relative;
+      width: 100%;
+    }
+  }
+}
+@media(max-width: 1100px){
+  .footer{
+    &__text{
+      margin-bottom: 25px;
+      &--rights{
+        order: 2;
+        margin-bottom: 0;
+      }
+    }
+    &-top{
+      margin-bottom: 25px;
+      .logo{
+        margin-bottom: 25px;
+      }
+    }
+    &-top, &-bottom{
+      align-items: center;
+      flex-direction: column;
+      text-align: center;
+    }
+    &-bottom__box{
+      text-align: center;
+      margin-bottom: 25px;
+    }
+  }
+}
+@media(max-width: 1080px){
+  .header{
+    min-height: calc(var(--vh, 1vh) * 100);
+    &__inner{
+      min-height: calc(var(--vh, 1vh) * 100);
+    }
+  }
+    .nav__list{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(-200%);
+    width: 100%;
+    transition: all .3s;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    background-color: $bg;
+    flex-direction: column;
+    text-align: center;
+    &-link{
+      color: $accent;
+      margin-bottom: 20px;
+      & + .nav__list-link{
+      margin-left: 0;
+    }
+    }
+    &.nav__list--active{
+      transform: translateY(0%);
+      transition: all .3s;
+    }
+  }
+  .logo{
+    z-index: 3;
+    &.logo--active path{
+      fill: $accent;
+    }
+  }
+  .nav__login{
+    margin-left: auto;
+    z-index: 3;
+    &.nav__login--active{
+      border: none;
+      background-color: transparent;
+      min-width: 35px;
+      height: 35px;
+      font-size: 0;
+      margin-top: -4px;
+      background-image: url('../images/header/login-active.svg');
+      background-repeat: no-repeat;
+    }
+  }
+  .nav__burger{
+    display: block;
+    z-index: 3;
+    &.nav__burger--active .nav__burger--open{
+      display: none;
+    }
+        &.nav__burger--active .nav__burger--close{
+      display: block;
+    }
+  }
+  .buy{
+    padding: 40px 0;
+  }
+  .question__inner{
+    padding: 40px 0;
+  }
+  .footer-nav{
+    .nav__list{
+      display: flex;
+    }
+  }
+}
+  @media(max-width: 1050px){
+    .about-quest{
+      &__inner{
+        padding: 30px 0;
+      }
+      &__title{
+      margin-bottom: 15px;
+    }
+      &__bg{
+        display: none;
+      }
+      &__text{
+        max-width: 100%;
+      }
+    }
+  }
+  @media(max-width: 1020px){
+    .profile__box-buttons{
+      flex-direction: column;
+    }
+    .profile__form{
+      &-btn{
+        margin-bottom: 20px;
+      }
+      &-btn, &-logout{
+      max-width: 100%;
+      width: 100%;
+    }
+    }
+  }
+@media (max-width: 900px){
+  .header__content{
+    &-title {
+    font-size: 80px;
+    line-height: 98px;
+    & span{
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+  &-slogan{
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+  &-btn{
+    width: 250px;
+    height: 50px;
+  }
+  }
+  .about-quest__btn{
+    max-width: 100%;
+    width: 100%;
+  }
+  .reviews__btn{
+    max-width: 100%;
+    width: 100%;
+  } 
+  .question__form-btn{
+    max-width: 100%;
+    width: 100%;
+  }
+  .reviews-form{
+    width: 100%;
+    &__wrapper{
+      width: 100%;
+      flex-direction: column;
+    }
+    &__box{
+      width: 100%;
+      margin-right: 0;
+      &--stars{
+        margin-bottom: 25px;
+      }
+    }
+    &__input, &__textarea{
+      width: 100%;
+    }
+    &__input-file{
+      max-width: 100%;
+      height: 30px;
+      margin-bottom: 30px;
+      & span{
+        height: 30px;
+      }
+    & span &-styles-text {
+    max-width: 256px;
+      }
+    }
+  }
+  .profile{
+    &__wrapper{
+    flex-direction: column;
+  }
+    &__box{
+      margin-bottom: 0;
+      & + .profile__box{
+        margin-left: 0;
+        margin-bottom: 30px;
+      }
+      &:nth-child(2){
+        display: flex;
+        flex-direction: column;
+        & label:nth-child(1){
+          order: 2;
+        }
+        & label:nth-child(2){
+          order: 3;
+        }
+        & label:nth-child(3){
+          order: 4;
+        }
+        & label:nth-child(4){
+          order: 1;
+        }
+      }
+    }
+    &__form-input{
+      max-width: 100%;
+      width: 100%;
+      &--cvv, &--valid{
+        width: 100px;
+      }
+    }
+  }
+}
+@media(max-width: 820px){
+  .buy__form-box--tickets{
+    flex-direction: column;
+  }
+  .buy__form-ticket + .buy__form-ticket{
+      margin-left: 0;
+      margin-top: 40px;
+    }
+}
+@media(max-width: 750px){
+  .about-stations{
+    &__item{
+      &-title{
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 15px;
+      }
+    }
+    & .btn{
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 690px){
+  .header__content{
+    &-title {
+    font-size: 70px;
+    line-height: 85px;
+    & span{
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  &-slogan{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  }
+}
+@media(max-width: 603px){
+  .authorization{
+    &__form{
+      &-box{
+      flex-direction: column;
+      }
+    &-signup, &-signin{
+      max-width: 100%;
+      width: 100%;
+    }
+    &-signin{
+      order: 1;
+      margin-bottom: 20px;
+    }
+    &-signup{
+      order: 2;
+    }
+  }
+  }
+  .about-stations{
+    &__item{
+      &-title{
+        font-size: 35px;
+        line-height: 41px;
+      }
+      &-text{
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+  .gallery__content{
+    &-items{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(10, 1fr);
+      grid-column-gap: 5px;
+      grid-row-gap: 5px;
+    }
+    &-item{
+      &--1{
+        grid-area: 1 / 1 / 3 / 4;
+      }
+      &--2{
+        grid-area: 3 / 1 / 4 / 4;
+        background-image: url('../images/gallery/fancybox/item2.jpg');
+      }
+      &--3{
+        grid-area: 4 / 1 / 5 / 4;
+      }
+       &--4{
+        grid-area: 5 / 1 / 6 / 3;
+      }
+      &--5{
+        grid-area: 6 / 1 / 8 / 3;
+        background-image: url('../images/gallery/fancybox/item5.jpg');
+        background-position: left center;
+      }
+      &--6{
+        grid-area: 8 / 1 / 9 / 3;
+      }
+      &--7{
+        grid-area: 9 / 1 / 10 / 3;
+      }
+      &--8{
+        grid-area: 10 / 1 / 11 / 3;
+      }
+      &--9{
+        grid-area: 11 / 1 / 12 / 3;
+      }
+      &-link--active{
+        display: none;
+      }
+    }
+  }
+  .footer-nav__list{
+    flex-direction: column;
+    &-link +.footer-nav__list-link {
+    margin-left: 0;
+    margin-top: 20px;
+}
+  }
+}
+@media (max-width: 550px){
+    .nav__login{
+    margin-left: auto;
+    z-index: 3;
+    border: none;
+    background-color: transparent;
+    min-width: 35px;
+    height: 35px;
+    font-size: 0;
+    margin-top: -4px;
+    background-image: url('../images/header/login.svg');
+    background-repeat: no-repeat;
+  }
+    .header__content{
+      text-align: center;
+    &-title {
+    font-size: 50px;
+    line-height: 61px;
+    & span{
+      font-size: 20px;
+      line-height: 24px;
+    }
+  }
+  &-slogan{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+  }
+  &-btn{
+    margin: 0 auto;
+  }
+  }
+  .about-stations{
+    &__item{
+      &-title{
+        font-size: 30px;
+        line-height: 35px;
+      }
+      &-text{
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .reviews__item{
+    margin: 0 auto;
+  }
+  .contacts__content{
+    padding: 80px 20px 96px;
+  }
+  .error-404{
+    &__title{
+      font-size: 150px;
+      line-height: 183px;
+    }
+    &__subtitle{
+      font-size: 40px;
+      line-height: 44px;
+    }
+    &__text{
+      font-size: 25px;
+      line-height: 29px;
+      max-width: 515px;
+      text-align: center;
+    }
+  }
+}
+@media (max-width: 480px){
+  .nav__list{
+    height: 305px;
+    justify-content: flex-end;
+  }
+    .header__content{
+    &-title {
+    font-size: 50px;
+    line-height: 61px;
+    & span{
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  &-slogan{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  &-btn{
+    margin: 0 auto;
+  }
+  }
+    .about-stations{
+    &__item{
+      &-title{
+        font-size: 25px;
+        line-height: 30px;
+      }
+      &-text{
+        font-size: 16px;
+        line-height: 19px;
+      }
+    }
+  }
+  .about-info__item{
+          &:hover{
+          background-size: 400%;
+          background-position: left center;
+        }
+  }
+  .reviews__slick-btn{
+      & + .reviews__slick-btn{
+        margin-left: 30px;
+      }
+    }
+    .buy__form-ticket-amount{
+        margin-top: 38px;
+    }
+    .reviews-form{
+      &__textarea{
+        height: 110px;
+      }
+      &__box--stars{
+        flex-direction: column;
+        align-items: center;
+        .reviews-form__text{
+          margin-bottom: 10px;
+        }
+      }
+      &__btn{
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+    .reviews__popup-title{
+      font-size: 24px;
+      line-height: 27px;
+    }
+}
+@media (max-width: 413px){
+  .header__content{
+    &-title span{
+    font-size: 18px;
+    line-height: 22px;
+    }
+    &-title{
+    font-size: 45px;
+    line-height: 56px;
+  }
+    &-slogan{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  }
+  .about-stations{
+    &__item{
+      &-title{
+        font-size: 23px;
+        line-height: 27px;
+      }
+    }
+  }
+  .reviews{
+    padding: 30px 0;
+  }
+      .buy__form-ticket-amount{
+        margin-top: 20px;
+    }
+      .buy__form-ticket + .buy__form-ticket{
+      margin-top: 50px;
+    }
+    .buy__form-box--tickets{
+      margin-bottom: 80px;
+    }
+    .reviews-form__input-file span{
+      font-size: 16px;
+    }
+}
+@media (max-width: 370px){
+  .header__content{
+    &-slogan{
+    font-size: 13px;
+    line-height: 15px;
+  }
+  &-title{
+    font-size: 40px;
+    line-height: 48px;
+  }
+  }
+  .about-stations{
+    &__item{
+      &-title{
+        font-size: 21px;
+        line-height: 24px;
+      }
+    }
+  }
+  .reviews__item{
+    padding: 0 40px;
+  }
+    .reviews__slick-btn{
+      & + .reviews__slick-btn{
+        margin-left: 15px;
+      }
+    }
+    .buy__form-ticket{
+      padding: 39px 10px 50px 10px;
+    }
+    .authorization__form, .registration__form{
+      &-signup, &-signin{
+        font-size: 20px;
+      }
+    }
+        .reviews-form__input-file span{
+      font-size: 14px;
+    }
+    .reviews-form__box--stars{
+      .reviews-form__text{
+        font-size: 18px;
+      }
+    }
+    .reviews__popup-title{
+      font-size: 18px;
+      line-height: 22px;
+    }
+    .profile__form-btn, .profile__form-logout{
+      font-size: 18px;
+    }
+}
+@media (max-width: 340px){
+  .header__content-title{
+    font-size: 35px;
+    line-height: 42px;
+  }
+  .reviews-form{
+    &__input::placeholder, &__textarea::placeholder{
+      font-size: 18px;
+    }
+  }
+}
+@media (max-width: 336px){
+      .reviews-form{
+    &__input::placeholder, &__textarea::placeholder{
+      font-size: 16px;
+    }
+}
+@media (max-width: 330px){  
+  .buy__form-ticket{
+    padding: 39px 3px 50px 3px;
+  }
+  .reviews-form__input-file span{
+      font-size: 12px;
+    }
+  }
+}

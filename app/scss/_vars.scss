@@ -1,0 +1,9 @@
+$bg: #fdfdfd;
+$accent: #1C4685;
+$text: #343A43;
+@function max($numbers...) {
+  @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+  @return m#{i}n(#{$numbers});
+}
