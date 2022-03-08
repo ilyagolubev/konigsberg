@@ -1,13 +1,21 @@
 $(function () {
-  $(".nav__list-link").on('click', function() {
-    $(".nav__list").removeClass("nav__list--active");
-    $(".logo").removeClass("logo--active");
-    $(".nav__login").removeClass("nav__login--active");
-    $(".nav__burger").removeClass("nav__burger--active");
+  $('.header__bg-video').bgVideo({
+    fullScreen: true,
+    fadeIn: 500,
+    pauseAfter: 120,
+    fadeOnPause: false,
+    fadeOnEnd: true,
+    showPausePlay: false,
   });
-  	$(".nav__list, .header__content, .about-quest__inner, .about-stations__item, .about-info__inner, .footer-top, .footer-nav__list").on("click","a", function (event) {
-		event.preventDefault();
-		var id  = $(this).attr('href'),
+     $(".nav__list-link").on('click', function() {
+         $(".nav__list").removeClass("nav__list--active");
+           $(".logo").removeClass("logo--active");
+             $(".nav__login").removeClass("nav__login--active");
+               $(".nav__burger").removeClass("nav__burger--active");
+               });
+                 	$(".nav__list, .header__content, .about-quest__inner, .about-stations__item, .about-info__inner, .footer-top, .footer-nav__list").on("click","a", function (event) {
+                  	event.preventDefault();
+                    	var id  = $(this).attr('href'),
 			top = $(id).offset().top;
 		$('body,html').animate({scrollTop: top}, 800);
 	});
@@ -55,7 +63,6 @@ $(function () {
 
     fixedContentPos: true,
     fixedBgPos: true,
-
     overflowY: 'auto',
 
     closeBtnInside: true,
