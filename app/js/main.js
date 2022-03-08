@@ -1,6 +1,6 @@
 $(function () {
   $('.header__bg-video').bgVideo({
-    fullScreen: true,
+    fullScreen: false,
     fadeIn: 500,
     pauseAfter: 120,
     fadeOnPause: false,

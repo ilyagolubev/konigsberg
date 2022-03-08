@@ -4,10 +4,20 @@
 @import 'libs';
 @import 'global';
 
+
 .header{
   min-height: 100vh;
   min-height: calc(var(--vh, 1vh) * 100);
   background: rgba(0, 0, 0, 0.6);
+  .jquery-background-video-wrapper{
+      position: absolute !important;
+      width: 100%;
+      min-height: 100vh;
+      z-index: -1;
+    }
+    .jquery-background-video-pauseplay{
+      display: none;
+    }
   &__bg{
     background-image: url('../images/header/header-bg.jpg');
     &-video{
