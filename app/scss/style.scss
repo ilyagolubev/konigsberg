@@ -7,10 +7,10 @@
 
 .header{
   min-height: 100vh;
-  min-height: calc(var(--vh, 1vh) * 100);
+  min-height: calc(var(--vh, 1vh) * 100); // необходимо, чтобы на мобильных устройствах корректно отображался min-height: 100vh, без этой конструкции браузер неправильно считает высоту экрана из-за вверхней строки с адресом
   background: rgba(0, 0, 0, 0.6);
   .jquery-background-video-wrapper{
-      position: absolute !important;
+      position: absolute !important; //Импортант необходим, чтобы перебить position: relative, который по стандарту прописан в плагине, иначе - никак
       width: 100%;
       min-height: 100vh;
       z-index: -1;
@@ -19,7 +19,7 @@
       display: none;
     }
   &__bg{
-    background-image: url('../images/header/header-bg.jpg');
+    background-image: url('../images/header/poster.jpg');
     &-video{
       filter: blur(4px);
     }
