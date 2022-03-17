@@ -118,9 +118,14 @@
     &-link{
       color: $accent;
       margin-bottom: 20px;
+      box-shadow: none;
+      transition: all .3s;
       & + .nav__list-link{
       margin-left: 0;
     }
+     &:hover {
+      box-shadow: none;
+      }
     }
     &.nav__list--active{
       transform: translateY(0%);

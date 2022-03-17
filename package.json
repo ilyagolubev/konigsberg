@@ -4,6 +4,7 @@
     "gulp-cli": "^2.3.0",
     "jquery-background-video": "^1.1.0",
     "js-datepicker": "^5.18.0",
+    "lazyload": "^2.0.0-rc.2",
     "wow.js": "^1.2.2"
   },
   "name": "start-gulp",

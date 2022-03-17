@@ -7,19 +7,24 @@ $(function () {
     fadeOnEnd: true,
     showPausePlay: false,
   });
-     $(".nav__list-link").on('click', function() {
-         $(".nav__list").removeClass("nav__list--active");
-           $(".logo").removeClass("logo--active");
-             $(".nav__login").removeClass("nav__login--active");
-               $(".nav__burger").removeClass("nav__burger--active");
-               });
-                 	$(".nav__list, .header__content, .about-quest__inner, .about-stations__item, .about-info__inner, .footer-top, .footer-nav__list").on("click","a", function (event) {
-                  	event.preventDefault();
-                    	var id  = $(this).attr('href'),
-			top = $(id).offset().top;
-		$('body,html').animate({scrollTop: top}, 800);
-	});
-  $('.gallery__content-item-link').hover(function(){
+  $(".nav__list-link").on('click', function () {
+    $(".nav__list").removeClass("nav__list--active");
+    $(".logo").removeClass("logo--active");
+    $(".nav__login").removeClass("nav__login--active");
+    $(".nav__burger").removeClass("nav__burger--active");
+  });
+  $('.nav__list-link-item').on('click', function () {
+    $('.nav__list').toggleClass('nav__list--activate');
+    $('.nav__burger').toggleClass('nav__burger--activate');
+    $('.nav__logo').toggleClass('nav__logo--activate');
+  })
+  $(".nav__list, .header__content, .about-quest__inner, .about-stations__item, .about-info__inner, .footer-top, .footer-nav__list").on("click", "a", function (event) {
+    event.preventDefault();
+    var id = $(this).attr('href'),
+      top = $(id).offset().top;
+    $('body,html').animate({ scrollTop: top }, 800);
+  });
+  $('.gallery__content-item-link').hover(function () {
     $('.gallery__content-item-link').toggleClass('gallery__content-item-link--active');
     $(this).removeClass('gallery__content-item-link--active');
   });
@@ -33,7 +38,7 @@ $(function () {
   new WOW().init();
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
-  $('.nav__burger').on('click', function(){
+  $('.nav__burger').on('click', function () {
     $('.nav__list').toggleClass('nav__list--active');
     $('.nav__burger').toggleClass('nav__burger--active');
     $('.nav__login').toggleClass('nav__login--active');
@@ -82,15 +87,15 @@ $(function () {
     arrows: true,
     clickContent: false,
   });
-/*   const picker = datepicker('.datapicker', {
-    formatter: (input, date, instance) => {
-      const value = date.toLocaleDateString()
-      input.value = value
-    },
-    maxDate: new Date(2022, 07, 31),
-    minDate: new Date(2022, 06, 4),
-    startDate: new Date(2022, 06, 4),
-    respectDisabledReadOnly: false
-    }); */
-    $('.buy__form-ticket-amount-input').styler();
+  /*   const picker = datepicker('.datapicker', {
+      formatter: (input, date, instance) => {
+        const value = date.toLocaleDateString()
+        input.value = value
+      },
+      maxDate: new Date(2022, 07, 31),
+      minDate: new Date(2022, 06, 4),
+      startDate: new Date(2022, 06, 4),
+      respectDisabledReadOnly: false
+      }); */
+  $('.buy__form-ticket-amount-input').styler();
 })  
