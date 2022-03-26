@@ -9,11 +9,12 @@
   min-height: calc(var(--vh, 1vh) * 100); // необходимо, чтобы на мобильных устройствах корректно отображался min-height: 100vh, без этой конструкции браузер неправильно считает высоту экрана из-за вверхней строки с адресом
   position: relative;
   &__slider{
+    min-height: 100vh;
       &.slick-slider{
-      min-height: 100vh;
       position: absolute;
       z-index: -1;
       width: 100%;
+      min-height: 100vh;
       .slick-track{
       background-color: black;
     }
@@ -26,7 +27,7 @@
     }
   }
   &__inner{
-    min-height: calc(var(--vh, 1vh) * 100);
+    min-height: 100vh;
     padding-top: 20px;
     display: flex;
     justify-content: space-between;
