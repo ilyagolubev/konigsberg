@@ -1,12 +1,4 @@
 $(function () {
-  $('.header__bg-video').bgVideo({
-    fullScreen: false,
-    fadeIn: 0,
-    pauseAfter: 120,
-    fadeOnPause: false,
-    fadeOnEnd: true,
-    showPausePlay: false,
-  });
   $(".nav__list-link").on('click', function () {
     $(".nav__list").removeClass("nav__list--active");
     $(".logo").removeClass("logo--active");
