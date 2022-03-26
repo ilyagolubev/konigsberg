@@ -36,6 +36,17 @@ $(function () {
     $('.nav__login').toggleClass('nav__login--active');
     $('.logo').toggleClass('logo--active');
   })
+  $('.header__slider').slick({
+    arrows: false,
+    dots: false,
+    autoplay: true,
+    infinite: true,
+    fade: true,
+    autoplaySpeed: 4000,
+    speed: 2000,
+    cssEase: 'linear',
+    draggable: false,
+  });
   $('.about-stations').slick({
     arrows: false,
     dots: true,
