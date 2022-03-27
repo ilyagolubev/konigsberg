@@ -90,6 +90,15 @@ $(function () {
     arrows: true,
     clickContent: false,
   });
+  $(".video__play").fancybox({
+    helpers: {
+      media: true
+    },
+    youtube: {
+      autoplay: 0,
+      start: 47,
+    }
+  });
   /*   const picker = datepicker('.datapicker', {
       formatter: (input, date, instance) => {
         const value = date.toLocaleDateString()
