@@ -1,5 +1,6 @@
 body{
   background-color: $bg;
+  overflow-x:hidden; //при прогрузке анимации иногда появляется нижний скролл
 }
 .container{
   max-width: 1200px;
