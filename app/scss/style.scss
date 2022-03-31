@@ -6,8 +6,7 @@
 
 
 .header{
-  min-height: calc(var(--vh, 1vh) * 100); // необходимо, чтобы на мобильных устройствах корректно отображался min-height: 100vh, без этой конструкции браузер неправильно считает высоту экрана из-за вверхней строки с адресом
-  position: relative;
+  min-height: calc(var(--vh, 1vh) * 100); // необходимо, чтобы на мобильных устройствах корректно отображался min-height: 100vh, без этой конструкции браузер неправильно считает высоту экрана из-за вверхней строки с адресом и из-за этого при скролле вниз заметно дергается контент
   &__slider{
     min-height: 100vh;
       &.slick-slider{
@@ -982,9 +981,7 @@
 	position: relative;
   }
 .authorization, .registration{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: none;
   &__title{
     font-weight: 600;
     font-size: 25px;
