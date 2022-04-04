@@ -465,16 +465,43 @@
       display: flex;
     }
     &__box{
+      max-width: 100%;
+      width: 100%;
       display: flex;
       flex-direction: column;
       margin-right: 30px;
-      &--stars{
-        flex-direction: row;
-        margin-bottom: 60px;
+    }
+    &__stars {
+      flex-direction: row;
+      margin-bottom: 60px;
+      &-item{
+        cursor: pointer;
+        & + .reviews-form__stars-item{
+          margin-left: 20px;
+        }
+        &:hover svg{
+          fill: #9BB5CF;
+        }
+      }
+      &-rating--active{
+        fill: $accent;
       }
     }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+    }
     &__input,&__textarea{
-      width: 620px;
+      max-width: 100%;
+      width: 100%;
       border: 1px solid #6A7480;
     }
     &__input{
@@ -511,7 +538,7 @@
 }
   #reviews__popup {
 	background: $bg;
-	padding: 60px;
+	padding: 30px 15px;
 	max-width: 1170px;
   height: 600px;
 	margin: 10px auto;

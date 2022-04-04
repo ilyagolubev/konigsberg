@@ -1,4 +1,10 @@
 $(function () {
+  $(".reviews-form__stars-item").on('click', function(){
+    $(".reviews-form__stars-rating").removeClass("reviews-form__stars-rating--active");
+    $(this).on('click', function(){
+      $(this).find(".reviews-form__stars-rating").addClass("reviews-form__stars-rating--active");
+    });
+  });
   $(".nav__list-link").on('click', function () {
     $(".nav__list").removeClass("nav__list--active");
     $(".logo").removeClass("logo--active");
