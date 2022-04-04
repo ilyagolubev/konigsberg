@@ -8,6 +8,7 @@
   <title>Городской квест Кенигсберг</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
   <header class="header" id="header">
     <div class="header__slider">
@@ -93,19 +94,19 @@
                 </div>
               </form>
             </div>
+          </div>
+          <div class="registration">
+            <div id="registration__popup" class="zoom-anim-dialog mfp-hide">
+              <h1 class="registration__title">Регистрация</h1>
+              <form class="registration__form">
+                <input type="text" class="registration__form-input" placeholder="Логин" required>
+                <input type="password" class="registration__form-input" placeholder="Пароль" required>
+                <div class="registration__form-box">
+                  <input class="registration__form-signup " type="submit" value="РЕГИСТРАЦИЯ">
+                </div>
+              </form>
             </div>
-            <div class="registration">
-              <div id="registration__popup" class="zoom-anim-dialog mfp-hide">
-                <h1 class="registration__title">Регистрация</h1>
-                <form class="registration__form">
-                  <input type="text" class="registration__form-input" placeholder="Логин" required>
-                  <input type="password" class="registration__form-input" placeholder="Пароль" required>
-                  <div class="registration__form-box">
-                    <input class="registration__form-signup " type="submit" value="РЕГИСТРАЦИЯ">
-                  </div>
-                </form>
-              </div>
-            </div>
+          </div>
         </nav>
         <div class="header__content wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
           <h1 class="header__content-title">
@@ -274,39 +275,48 @@
     <div class="gallery__content">
       <div class="container">
         <div class="gallery__content-items wow fadeIn" data-wow-offset="100" data-wow-delay=".5s">
-          <div class="gallery__content-item gallery__content-item--1" style="background-image: url('../images/gallery/item1.jpg');background-position: left center;"><a class="gallery__content-item-link"
-              href="images/gallery/fancybox/item1.jpg" data-fancybox="gallery">
+          <div class="gallery__content-item gallery__content-item--1"
+            style="background-image: url('../images/gallery/item1.jpg');background-position: left center;"><a
+              class="gallery__content-item-link" href="images/gallery/fancybox/item1.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--2" style="background-image: url('../images/gallery/item2.jpg');"><a class="gallery__content-item-link"
+          <div class="gallery__content-item gallery__content-item--2"
+            style="background-image: url('../images/gallery/item2.jpg');"><a class="gallery__content-item-link"
               href="images/gallery/fancybox/item2.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--3" style="background-image: url('../images/gallery/item3.jpg');"><a class="gallery__content-item-link"
+          <div class="gallery__content-item gallery__content-item--3"
+            style="background-image: url('../images/gallery/item3.jpg');"><a class="gallery__content-item-link"
               href="images/gallery/fancybox/item3.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--4" style="background-image: url('../images/gallery/item4.jpg');"><a class="gallery__content-item-link"
+          <div class="gallery__content-item gallery__content-item--4"
+            style="background-image: url('../images/gallery/item4.jpg');"><a class="gallery__content-item-link"
               href="images/gallery/fancybox/item4.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--5" style="background-image: url('../images/gallery/item5.jpg');">
+          <div class="gallery__content-item gallery__content-item--5"
+            style="background-image: url('../images/gallery/item5.jpg');">
             <a class="gallery__content-item-link" href="images/gallery/fancybox/item5.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--6" style="background-image: url('../images/gallery/item6.jpg');">
+          <div class="gallery__content-item gallery__content-item--6"
+            style="background-image: url('../images/gallery/item6.jpg');">
             <a class="gallery__content-item-link" href="images/gallery/fancybox/item6.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--7" style="background-image: url('../images/gallery/item7.jpg');">
+          <div class="gallery__content-item gallery__content-item--7"
+            style="background-image: url('../images/gallery/item7.jpg');">
             <a class="gallery__content-item-link" href="images/gallery/fancybox/item7.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--8" style="background-image: url('../images/gallery/item8.jpg');">
+          <div class="gallery__content-item gallery__content-item--8"
+            style="background-image: url('../images/gallery/item8.jpg');">
             <a class="gallery__content-item-link" href="images/gallery/fancybox/item8.jpg" data-fancybox="gallery">
             </a>
           </div>
-          <div class="gallery__content-item gallery__content-item--9" style="background-image: url('../images/gallery/item9.jpg');">
+          <div class="gallery__content-item gallery__content-item--9"
+            style="background-image: url('../images/gallery/item9.jpg');">
             <a class="gallery__content-item-link" href="images/gallery/fancybox/item9.jpg" data-fancybox="gallery">
             </a>
           </div>
@@ -330,7 +340,6 @@
     <div class="reviews__container wow fadeInUp" data-wow-offset="100" data-wow-delay=".5s">
       <div class="reviews__items">
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar1.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -350,7 +359,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar2.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -370,7 +378,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar3.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -390,7 +397,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar4.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -410,7 +416,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar5.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -430,7 +435,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar6.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -450,7 +454,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar7.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -470,7 +473,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar8.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -490,7 +492,6 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar9.jpg" alt="Аватар клиента">
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -510,7 +511,7 @@
           </p>
         </div>
         <div class="reviews__item">
-          <img class="reviews__item-avatar" src="images/reviews/avatar10.jpg" alt="Аватар клиента">
+
           <div class="reviews__item-stars">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
             <img class="reviews__item-star" src="images/reviews/star.svg" alt="Звезда">
@@ -535,19 +536,16 @@
     <div class="reviews__popup-wrapper">
       <div id="reviews__popup" class="zoom-anim-dialog mfp-hide reviews__popup">
         <form class="reviews-form">
+          <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="Konigsberg">
+          <input type="hidden" name="admin_email" value="ilijagolubev@gmail.com">
+          <input type="hidden" name="form_subject" value="Question form">
+          <!-- END Hidden Required Fields -->
           <h1 class="reviews__popup-title title">ОСТАВИТЬ ОТЗЫВ</h1>
           <div class="reviews-form__wrapper">
             <div class="reviews-form__box">
-              <input type="text" class="reviews-form__input" placeholder="Введите имя" required>
-              <textarea class="reviews-form__textarea" placeholder="Введите отзыв" required></textarea>
-            </div>
-            <div class="reviews-form__input-file">
-              <input class="visually-hidden" type="file" id="file">
-              <label class="reviews-form__input-file-styles" for="file">
-                <span>
-                  <p class="reviews-form__input-file-styles-text">Загрузить изображение</p>
-                </span>
-              </label>
+              <input class="reviews-form__input" type="text" name="Имя" placeholder="Введите имя" required>
+              <textarea class="reviews-form__textarea" name="Отзыв" placeholder="Введите отзыв" required></textarea>
             </div>
           </div>
           <div class="reviews-form__box reviews-form__box--stars">
@@ -671,10 +669,15 @@
           Напишите нам!
         </h2>
         <form class="question__form">
-          <input class="question__form-input" type="text" placeholder="Имя*" required>
-          <input class="question__form-input" type="text" placeholder="+7 (___) ___-__-__*" required>
-          <input class="question__form-input" type="text" placeholder="E-mail*" required>
-          <textarea class="question__form-textarea" placeholder="Ваш вопрос"></textarea>
+          <!-- Hidden Required Fields -->
+          <input type="hidden" name="project_name" value="Konigsberg">
+          <input type="hidden" name="admin_email" value="ilijagolubev@gmail.com">
+          <input type="hidden" name="form_subject" value="Question form">
+          <!-- END Hidden Required Fields -->
+          <input class="question__form-input" type="text" name="Имя" placeholder="Имя*" required>
+          <input class="question__form-input" type="text" name="Телефон" placeholder="+7 (___) ___-__-__*" required>
+          <input class="question__form-input" type="text" name="E-mail" placeholder="E-mail*" required>
+          <textarea class="question__form-textarea" placeholder="Ваш вопрос" name="Вопрос"></textarea>
           <div class="question__form-box">
             <p class="question__form-text text">
               Отправляя заявку, Вы даете согласие на обработку <span>персональных данных</span>
@@ -717,7 +720,7 @@
             </a>
           </div>
           <ul class="contacts__content-list">
-            <a class="contacts__content-list-link" href="#">
+            <a class="contacts__content-list-link" href="404.html">
               <li class="contacts__content-list-link-item">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path

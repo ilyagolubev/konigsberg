@@ -486,43 +486,6 @@
       height: 170px;
       margin-bottom: 30px;
     }
-    .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-  &__input-file{
-    min-width: 170px;
-    height: 236px;
-    border: 1px solid #6A7480;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    cursor: pointer;
-    & span{
-      font-size: 20px;
-      line-height: 24px;
-      font-weight: 500;
-      color: #6A7480;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 236px;
-      font-family: 'Montserrat',sans-serif;
-      cursor: pointer;
-      & p{
-        max-width: 155px;
-      }
-    }
-  }
   &__text{
     font-size: 20px;
     line-height: 24px;
