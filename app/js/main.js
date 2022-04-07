@@ -121,7 +121,6 @@ $(function () {
       respectDisabledReadOnly: false
       }); */
   $('.buy__form-ticket-amount-input').styler();
-  
   $("form").submit(function () { //Change
     var th = $(this);
     $.ajax({
@@ -129,7 +128,19 @@ $(function () {
       url: "mail.php", //Change
       data: th.serialize()
     }).done(function () {
-      alert("Thank you!");
+      $.magnificPopup.open({
+        type: 'inline',
+        items: { src: '#question-thanks' },
+        preloader: false,
+        fixedContentPos: true,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        midClick: false,
+        removalDelay: 300,
+        modal: false,
+        mainClass: 'my-mfp-zoom-in',
+      }); 
       setTimeout(function () {
         // Done Functions
         th.trigger("reset");

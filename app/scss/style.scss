@@ -731,6 +731,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  position: relative;
   &__inner{
     padding: 120px 0 190px;
   }
@@ -784,6 +785,18 @@
       justify-content: space-between;
     }
   }
+  &-thanks {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        margin: 10px auto;
+        background: $bg;
+        width: 300px;
+        height: 100px;
+    }
 }
 .contacts{
   background-color: $accent;
@@ -963,7 +976,7 @@
     font-family: 'Montserrat',sans-serif;
   }
 }
-  #authorization__popup, #registration__popup {
+  #authorization__popup, #registration__popup{
 	background: $bg;
 	padding: 100px 70px;
 	text-align: center;
