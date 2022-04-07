@@ -38,6 +38,7 @@ function scripts() {
 /*     'node_modules/js-datepicker/src/datepicker.js', */
     'node_modules/jquery-form-styler/dist/jquery.formstyler.js',
     'node_modules/wow.js/dist/wow.js',
+    'node_modules/jquery-mask-plugin/dist/jquery.mask.js',
     'app/js/main.js'
   ])
   .pipe(concat('main.min.js'))

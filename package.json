@@ -2,6 +2,7 @@
   "dependencies": {
     "animate.css": "^4.1.1",
     "gulp-cli": "^2.3.0",
+    "jquery-mask-plugin": "^1.14.16",
     "js-datepicker": "^5.18.0",
     "lazyload": "^2.0.0-rc.2",
     "wow.js": "^1.2.2"

@@ -665,13 +665,13 @@
             <h2 class="buy__form-input-title">
               Введите Вашу почту
             </h2>
-            <input class="buy__form-input" type="text" placeholder="E-mail*" required>
+            <input class="buy__form-input" type="email" placeholder="E-mail*" maxlength="30" required>
           </label>
           <label class="buy__form-phone">
             <h2 class="buy__form-input-title">
               Введите Ваш номер телефона
             </h2>
-            <input class="buy__form-input" type="text" placeholder="+7 (___) ___-__-__*" required>
+            <input class="buy__form-input phone" type="text" placeholder="+7 (___) ___-__-__*" required>
           </label>
           <input class="buy__form-btn btn" type="submit" value="Купить билет">
         </div>
@@ -690,7 +690,7 @@
               <h4 class="buy__form-ticket-amount-title text">
                 Выберите количество билетов
               </h4>
-              <input class="buy__form-ticket-amount-input" type="number" min="0" max="10" required>
+              <input class="buy__form-ticket-amount-input" type="number" min="0" max="99" required>
             </label>
           </div>
           <div class="buy__form-ticket">
@@ -707,7 +707,7 @@
               <h4 class="buy__form-ticket-amount-title text">
                 Выберите количество билетов
               </h4>
-              <input class="buy__form-ticket-amount-input" type="number" min="0" max="10" required>
+              <input class="buy__form-ticket-amount-input" type="number" min="0" max="99" required>
             </label>
           </div>
         </div>
@@ -730,8 +730,8 @@
           <input type="hidden" name="form_subject" value="Question form">
           <!-- END Hidden Required Fields -->
           <input class="question__form-input" type="text" name="Имя" placeholder="Имя*" required>
-          <input class="question__form-input" type="text" name="Телефон" placeholder="+7 (___) ___-__-__*" required>
-          <input class="question__form-input" type="text" name="E-mail" placeholder="E-mail*" required>
+          <input class="question__form-input phone" type="text" name="Телефон" placeholder="+7 (___) ___-__-__*" required>
+          <input class="question__form-input" type="email" name="E-mail" placeholder="E-mail*" maxlength="30" required>
           <textarea class="question__form-textarea" placeholder="Ваш вопрос" name="Вопрос"></textarea>
           <div class="question__form-box">
             <p class="question__form-text text">

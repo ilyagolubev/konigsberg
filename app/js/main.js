@@ -1,4 +1,9 @@
 $(function () {
+  $('.phone').mask('+7(000)-000-00-00');
+  $('.card').mask('0000-0000-0000-0000');
+  $('.cvv').mask('00/00');
+  $('.valid').mask('000');
+  $('.buy__form-ticket-amount-input').mask('00');
   $(".reviews-form__stars-item").on('click', function(){
     $(".reviews-form__stars-rating").removeClass("reviews-form__stars-rating--active");
     $(this).on('click', function(){

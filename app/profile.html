@@ -34,19 +34,19 @@
               <h3 class="profile__form-title">
                 Телефон
               </h3>
-              <input class="profile__form-input" type="text" placeholder="+7 (___) ___-__-__">
+              <input class="profile__form-input phone" type="text" placeholder="+7 (___) ___-__-__">
             </label>
             <label class="profile__form-label">
               <h3 class="profile__form-title">
                 Электронная почта
               </h3>
-              <input class="profile__form-input" type="text" placeholder="E-mail">
+              <input class="profile__form-input" type="email" placeholder="E-mail">
             </label>
             <label class="profile__form-label">
               <h3 class="profile__form-title">
                 Логин
               </h3>
-              <input class="profile__form-input" type="text" placeholder="">
+              <input class="profile__form-input" type="text" maxlength="12" pattern="[A-Za-z]">
             </label>
           </div>
           <div class="profile__box">
@@ -54,13 +54,13 @@
               <h3 class="profile__form-title">
                 Номер банковской карты
               </h3>
-              <input class="profile__form-input" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
+              <input class="profile__form-input card" type="text" placeholder="XXXX-XXXX-XXXX-XXXX">
             </label>
             <label class="profile__form-label">
               <h3 class="profile__form-title">
                 Срок действия карты
               </h3>
-              <input class="profile__form-input profile__form-input--cvv" type="text" placeholder="00/00">
+              <input class="profile__form-input profile__form-input--cvv cvv" type="text" placeholder="00/00">
             </label>
             <label class="profile__form-label">
               <h3 class="profile__form-title">
@@ -72,7 +72,7 @@
               <h3 class="profile__form-title">
                 Пароль
               </h3>
-              <input class="profile__form-input" type="text" placeholder="">
+              <input class="profile__form-input" type="password" maxlength="12">
             </label>
           </div>
         </div>
