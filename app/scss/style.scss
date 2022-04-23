@@ -1079,11 +1079,28 @@
 }
 .profile{
   padding: 30px 0;
+  position: relative;
     &__logo{
       &-img{
         margin: 0 auto 50px;
       }
    }
+ &__wrong{
+   position: absolute;
+   min-height: 100vh;
+   background: $bg;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   &-msg{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    font-family: 'Montserrat',
+    sans-serif;
+    color: $text;
+   }
+ }  
  &__welcome{
    text-align: center;
    margin-bottom: 50px;
@@ -1103,15 +1120,18 @@
     color: $accent;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 34px;
+    text-align: center;
  }
  &__box{
    margin-bottom: 50px;
+
  & + .profile__box{
    margin-left: 77px;
  }
  }
  &__wrapper{
    display: flex;
+   justify-content: center;
  }
  &__form{
    display: flex;
@@ -1150,6 +1170,7 @@
      font-size: 20px;
      line-height: 24px;
      font-family: 'Montserrat', sans-serif;
+     margin-right: 30px;
    }
    &-logout{
      width: 270px;
@@ -1168,8 +1189,11 @@
  }
  &__box-buttons{
    display: flex;
-   justify-content: space-between;
+   justify-content: center;
  }
+}
+.air-datepicker-body--day-name{
+  color: $accent;
 }
 
 @keyframes glow {

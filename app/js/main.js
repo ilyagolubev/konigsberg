@@ -110,18 +110,8 @@ $(function () {
       start: 47,
     }
   });
-  /*   const picker = datepicker('.datapicker', {
-      formatter: (input, date, instance) => {
-        const value = date.toLocaleDateString()
-        input.value = value
-      },
-      maxDate: new Date(2022, 07, 31),
-      minDate: new Date(2022, 06, 4),
-      startDate: new Date(2022, 06, 4),
-      respectDisabledReadOnly: false
-      }); */
   $('.buy__form-ticket-amount-input').styler();
-  $("form").submit(function () { //Change
+  $(".reviews-form").submit(function () { //Change
     var th = $(this);
     $.ajax({
       type: "POST",
@@ -148,4 +138,37 @@ $(function () {
     });
     return false;
   });
-})  
+  $(".question__form").submit(function () { //Change
+    var th = $(this);
+    $.ajax({
+      type: "POST",
+      url: "mail.php", //Change
+      data: th.serialize()
+    }).done(function () {
+      $.magnificPopup.open({
+        type: 'inline',
+        items: { src: '#question-thanks' },
+        preloader: false,
+        fixedContentPos: true,
+        fixedBgPos: true,
+        overflowY: 'auto',
+        closeBtnInside: true,
+        midClick: false,
+        removalDelay: 300,
+        modal: false,
+        mainClass: 'my-mfp-zoom-in',
+      });
+      setTimeout(function () {
+        // Done Functions
+        th.trigger("reset");
+      }, 1000);
+    });
+    return false;
+  });
+  new AirDatepicker('#datepicker', {
+    isMobile: true,
+    autoClose: true,
+    minDate: '2022/06/20',
+    maxDate: '2022/06/26',
+  });
+})

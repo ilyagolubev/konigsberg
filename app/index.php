@@ -83,14 +83,13 @@
           </a>
           <div class="authorization">
             <div id="authorization__popup" class="zoom-anim-dialog mfp-hide">
-              <h1 class="authorization__title">Авторизация</h1>
+              <h1 class="authorization__title">Авторизация</h1> 
               <form class="authorization__form" action="authorization.php" method="post">
-                <input type="text" class="authorization__form-input" placeholder="Логин">
-                <input type="password" class="authorization__form-input" placeholder="Пароль">
+                <input class="authorization__form-input" type="text" name="login"  placeholder="Логин" required>
+                <input class="authorization__form-input" type="password" name="password"  placeholder="Пароль" required>
                 <div class="authorization__form-box">
                   <a class="authorization__form-signup " href="#registration__popup">РЕГИСТРАЦИЯ</a>
-                  <!-- <input class="authorization__form-signin " type="submit" value="ВОЙТИ"> -->
-                  <a class="authorization__form-signin" href="profile.php">ВОЙТИ</a>
+                  <input class="authorization__form-signin " type="submit" value="ВОЙТИ">
                 </div>
               </form>
             </div>
@@ -99,8 +98,8 @@
             <div id="registration__popup" class="zoom-anim-dialog mfp-hide">
               <h1 class="registration__title">Регистрация</h1>
               <form class="registration__form" action="registration.php" method="post">
-                <input type="text" class="registration__form-input" placeholder="Логин" required>
-                <input type="password" class="registration__form-input" placeholder="Пароль" required>
+                <input class="registration__form-input" type="text" name="login" placeholder="Логин" required>
+                <input class="registration__form-input" type="password" name="password" placeholder="Пароль" required>
                 <div class="registration__form-box">
                   <input class="registration__form-signup " type="submit" value="РЕГИСТРАЦИЯ">
                 </div>
@@ -662,7 +661,7 @@
             <h2 class="buy__form-input-title">
               Выберите дату посещения
             </h2>
-            <input class="buy__form-input" id="datepicker" placeholder="dd/mm/yyyy*" required>
+            <input class="buy__form-input" id="datepicker" type="text" placeholder="dd/mm/yyyy*" required>
           </label>
           <label class="buy__form-email">
             <h2 class="buy__form-input-title">
