@@ -19,8 +19,8 @@
     </div>
     <div class="container">
       <div class="header__inner">
-        <nav class="nav wow fadeInDown" data-wow-duration="1.5s" data-wow-delay="1s">
-          <a class="header__logo logo" href="#header">
+        <nav class="nav">
+          <a class="header__logo logo wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay=".3s" href="#header">
             <svg width="147" height="50" viewBox="0 0 147 50" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M68.032 20L68.014 12.458L64.306 18.668H63.01L59.302 12.602V20H56.566V7.4H58.978L63.694 15.23L68.338 7.4H70.75L70.768 20H68.032ZM73.898 7.4H76.796V15.608L82.808 7.4H85.544V20H82.664V11.81L76.652 20H73.898V7.4ZM94.1352 7.4C95.2512 7.4 96.2172 7.586 97.0332 7.958C97.8612 8.33 98.4972 8.858 98.9412 9.542C99.3852 10.226 99.6072 11.036 99.6072 11.972C99.6072 12.896 99.3852 13.706 98.9412 14.402C98.4972 15.086 97.8612 15.614 97.0332 15.986C96.2172 16.346 95.2512 16.526 94.1352 16.526H91.5972V20H88.6812V7.4H94.1352ZM93.9732 14.15C94.8492 14.15 95.5152 13.964 95.9712 13.592C96.4272 13.208 96.6552 12.668 96.6552 11.972C96.6552 11.264 96.4272 10.724 95.9712 10.352C95.5152 9.968 94.8492 9.776 93.9732 9.776H91.5972V14.15H93.9732ZM61.444 36.924H59.428V42H56.53V29.4H59.428V34.494H61.516L64.828 29.4H67.906L63.784 35.484L68.032 42H64.72L61.444 36.924ZM78.128 35.43C78.896 35.658 79.484 36.03 79.892 36.546C80.3 37.062 80.504 37.698 80.504 38.454C80.504 39.57 80.078 40.44 79.226 41.064C78.386 41.688 77.18 42 75.608 42H69.398V29.4H75.266C76.73 29.4 77.87 29.682 78.686 30.246C79.502 30.81 79.91 31.614 79.91 32.658C79.91 33.282 79.754 33.834 79.442 34.314C79.13 34.782 78.692 35.154 78.128 35.43ZM72.296 34.62H75.014C75.65 34.62 76.13 34.494 76.454 34.242C76.778 33.978 76.94 33.594 76.94 33.09C76.94 32.598 76.772 32.22 76.436 31.956C76.112 31.692 75.638 31.56 75.014 31.56H72.296V34.62ZM75.5 39.84C76.868 39.84 77.552 39.3 77.552 38.22C77.552 37.176 76.868 36.654 75.5 36.654H72.296V39.84H75.5ZM92.5661 39.66V42H82.8101V29.4H92.3321V31.74H85.7081V34.476H91.5581V36.744H85.7081V39.66H92.5661ZM100.844 42.216C99.5603 42.216 98.3963 41.94 97.3523 41.388C96.3203 40.824 95.5043 40.05 94.9043 39.066C94.3163 38.07 94.0223 36.948 94.0223 35.7C94.0223 34.452 94.3163 33.336 94.9043 32.352C95.5043 31.356 96.3203 30.582 97.3523 30.03C98.3963 29.466 99.5663 29.184 100.862 29.184C101.954 29.184 102.938 29.376 103.814 29.76C104.702 30.144 105.446 30.696 106.046 31.416L104.174 33.144C103.322 32.16 102.266 31.668 101.006 31.668C100.226 31.668 99.5303 31.842 98.9183 32.19C98.3063 32.526 97.8263 33 97.4783 33.612C97.1423 34.224 96.9743 34.92 96.9743 35.7C96.9743 36.48 97.1423 37.176 97.4783 37.788C97.8263 38.4 98.3063 38.88 98.9183 39.228C99.5303 39.564 100.226 39.732 101.006 39.732C102.266 39.732 103.322 39.234 104.174 38.238L106.046 39.966C105.446 40.698 104.702 41.256 103.814 41.64C102.926 42.024 101.936 42.216 100.844 42.216ZM117.454 31.776H113.422V42H110.542V31.776H106.528V29.4H117.454V31.776ZM125.121 42.216C123.813 42.216 122.631 41.934 121.575 41.37C120.531 40.806 119.709 40.032 119.109 39.048C118.521 38.052 118.227 36.936 118.227 35.7C118.227 34.464 118.521 33.354 119.109 32.37C119.709 31.374 120.531 30.594 121.575 30.03C122.631 29.466 123.813 29.184 125.121 29.184C126.429 29.184 127.605 29.466 128.649 30.03C129.693 30.594 130.515 31.374 131.115 32.37C131.715 33.354 132.015 34.464 132.015 35.7C132.015 36.936 131.715 38.052 131.115 39.048C130.515 40.032 129.693 40.806 128.649 41.37C127.605 41.934 126.429 42.216 125.121 42.216ZM125.121 39.732C125.865 39.732 126.537 39.564 127.137 39.228C127.737 38.88 128.205 38.4 128.541 37.788C128.889 37.176 129.063 36.48 129.063 35.7C129.063 34.92 128.889 34.224 128.541 33.612C128.205 33 127.737 32.526 127.137 32.19C126.537 31.842 125.865 31.668 125.121 31.668C124.377 31.668 123.705 31.842 123.105 32.19C122.505 32.526 122.031 33 121.683 33.612C121.347 34.224 121.179 34.92 121.179 35.7C121.179 36.48 121.347 37.176 121.683 37.788C122.031 38.4 122.505 38.88 123.105 39.228C123.705 39.564 124.377 39.732 125.121 39.732ZM142.991 35.43C143.759 35.658 144.347 36.03 144.755 36.546C145.163 37.062 145.367 37.698 145.367 38.454C145.367 39.57 144.941 40.44 144.089 41.064C143.249 41.688 142.043 42 140.471 42H134.261V29.4H140.129C141.593 29.4 142.733 29.682 143.549 30.246C144.365 30.81 144.773 31.614 144.773 32.658C144.773 33.282 144.617 33.834 144.305 34.314C143.993 34.782 143.555 35.154 142.991 35.43ZM137.159 34.62H139.877C140.513 34.62 140.993 34.494 141.317 34.242C141.641 33.978 141.803 33.594 141.803 33.09C141.803 32.598 141.635 32.22 141.299 31.956C140.975 31.692 140.501 31.56 139.877 31.56H137.159V34.62ZM140.363 39.84C141.731 39.84 142.415 39.3 142.415 38.22C142.415 37.176 141.731 36.654 140.363 36.654H137.159V39.84H140.363Z"
@@ -52,41 +52,42 @@
             </svg>
           </button>
           <ul class="nav__list">
-            <a class="nav__list-link" href="#about">
-              <li class="nav__list-link-item">
+            <li class="nav__list-item wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay=".5s">
+              <a class="nav__list-link" href="#about">
                 О КВЕСТЕ
-              </li>
-            </a>
-            <a class="nav__list-link" href="#gallery">
-              <li class="nav__list-link-item">
+              </a>
+            </li>
+            <li class="nav__list-item wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay=".7s">
+              <a class="nav__list-link" href="#gallery">
                 ГАЛЕРЕЯ
-              </li>
-            </a>
-            <a class="nav__list-link" href="#reviews">
-              <li class="nav__list-link-item">
+              </a>
+            </li>
+            <li class="nav__list-item wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay=".9s">
+              <a class="nav__list-link" href="#reviews">
                 ОТЗЫВЫ
-              </li>
-            </a>
-            <a class="nav__list-link" href="#buy">
-              <li class="nav__list-link-item">
+              </a>
+            </li>
+            <li class="nav__list-item wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="1.1s">
+              <a class="nav__list-link" href="#buy">
                 КУПИТЬ
-              </li>
-            </a>
-            <a class="nav__list-link" href="#contacts">
-              <li class="nav__list-link-item">
+              </a>
+            </li>
+            <li class="nav__list-item wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="1.3s">
+              <a class="nav__list-link" href="#contacts">
                 КОНТАКТЫ
-              </li>
-            </a>
+              </a>
+            </li>
           </ul>
-          <a class="nav__login" href="#authorization__popup">
+          <a class="nav__login wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="1.5s"
+            href="#authorization__popup">
             ВОЙТИ
           </a>
           <div class="authorization">
             <div id="authorization__popup" class="zoom-anim-dialog mfp-hide">
-              <h1 class="authorization__title">Авторизация</h1> 
+              <h1 class="authorization__title">Авторизация</h1>
               <form class="authorization__form" action="authorization.php" method="post">
-                <input class="authorization__form-input" type="text" name="login"  placeholder="Логин" required>
-                <input class="authorization__form-input" type="password" name="password"  placeholder="Пароль" required>
+                <input type="text" class="authorization__form-input" placeholder="Логин">
+                <input type="password" class="authorization__form-input" placeholder="Пароль">
                 <div class="authorization__form-box">
                   <a class="authorization__form-signup " href="#registration__popup">РЕГИСТРАЦИЯ</a>
                   <input class="authorization__form-signin " type="submit" value="ВОЙТИ">
@@ -98,8 +99,8 @@
             <div id="registration__popup" class="zoom-anim-dialog mfp-hide">
               <h1 class="registration__title">Регистрация</h1>
               <form class="registration__form" action="registration.php" method="post">
-                <input class="registration__form-input" type="text" name="login" placeholder="Логин" required>
-                <input class="registration__form-input" type="password" name="password" placeholder="Пароль" required>
+                <input type="text" class="registration__form-input" placeholder="Логин" required>
+                <input type="password" class="registration__form-input" placeholder="Пароль" required>
                 <div class="registration__form-box">
                   <input class="registration__form-signup " type="submit" value="РЕГИСТРАЦИЯ">
                 </div>
@@ -107,36 +108,40 @@
             </div>
           </div>
         </nav>
-        <div class="header__content wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
-          <h1 class="header__content-title">
+        <div class="header__content">
+          <h1 class="header__content-title wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
             <span class="header__content-subtitle">
               ГОРОДСКОЙ КВЕСТ
             </span>
             КЕНИГСБЕРГ
           </h1>
-          <h2 class="header__content-slogan">
+          <h2 class="header__content-slogan wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1.3s">
             Узнайте историю Калининграда через увлекательный квест!
           </h2>
-          <a class="header__content-btn btn" href="#buy">КУПИТЬ БИЛЕТ</a>
+          <a class="header__content-btn btn wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="1.6s"
+            href="#buy">КУПИТЬ БИЛЕТ</a>
         </div>
       </div>
     </div>
   </header>
   <section class="about" id="about">
     <div class="about-quest">
-      <div class="about-quest__bg wow slideInRight" data-wow-offset="100" data-wow-delay=".3s">
+      <div class="about-quest__bg wow fadeInRightBig" data-wow-offset="150" data-wow-delay=".3s">
       </div>
       <div class="container">
-        <div class="about-quest__inner wow slideInLeft" data-wow-offset="100" data-wow-delay=".3s">
-          <h1 class="about-quest__title title">
+        <div class="about-quest__inner">
+          <h1 class="about-quest__title title wow fadeInLeftBig" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay=".4s">
             О КВЕСТЕ
           </h1>
-          <p class="about-quest__text text">
+          <p class="about-quest__text text wow fadeInLeftBig" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay=".5s">
             История Кенигсберга-Калининграда неразрывно связана с <span>великими личностями</span>, жившими в
             Кенигсберге или
             посещавшими его.
           </p>
-          <p class="about-quest__text text">
+          <p class="about-quest__text text wow fadeInLeftBig" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay=".5s">
             В ходе нашей квест-экскурсии участники встретятся с <span>значимыми персонами</span>, чьи имена связаны с
             нашим городом,
             а выполнив
@@ -145,7 +150,8 @@
             передвижения по
             городу и <span>ключи к отгадке</span> главной задачи квеста.
           </p>
-          <a class="about-quest__btn btn" href="#buy">
+          <a class="about-quest__btn btn wow fadeInLeftBig" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay=".6s" href="#buy">
             Купить билет
           </a>
         </div>
@@ -154,11 +160,13 @@
     <div class="about-stations">
       <div class="about-stations__item" style="background-image: url('../images/stations/main.jpg');">
         <div class="container">
-          <div class="about-stations__item-inner wow fadeInUp" data-wow-offset="100" data-wow-delay=".3s">
-            <h1 class="about-stations__item-title">
+          <div class="about-stations__item-inner">
+            <h1 class="about-stations__item-title wow fadeInUpBig" data-wow-offset="50" data-wow-delay=".3s"
+              data-wow-duration="1.5s">
               ТЕМАТИЧЕСКИЕ СТАНЦИИ
             </h1>
-            <p class="about-stations__item-text text">
+            <p class="about-stations__item-text text wow fadeInUpBig" data-wow-offset="0" data-wow-delay=".4s"
+              data-wow-duration="1.5s">
               Участники мероприятия делятся на команды и передвигаются по городу на двух микроавтобусах по заданным в
               квесте
               маршрутам, на каждой тематической станции команды ожидает встреча с исторической личностью, чье имя
@@ -166,7 +174,8 @@
               с тем или
               иным местом.
             </p>
-            <a href="#buy" class="btn">
+            <a href="#buy" class="btn wow fadeInUpBig" data-wow-offset="0" data-wow-delay=".4s"
+              data-wow-duration="1.5s">
               Купить билет
             </a>
           </div>
@@ -220,11 +229,12 @@
         </div>
       </div>
     </div>
-    <div class="about-info" data-parallax="scroll" data-image-src="/images/about/about-info/about-info-bg.jpg">
+    <div class="about-info">
       <div class="container">
-        <div class="about-info__inner wow fadeInUp" data-wow-offset="100" data-wow-delay=".3s">
+        <div class="about-info__inner">
           <div class="about-info__items">
-            <div class="about-info__item about-info__item--time">
+            <div class="about-info__item about-info__item--time wow fadeInUp" data-wow-offset="250" data-wow-delay=".3s"
+              data-wow-duration="1.5s">
               <div class="about-info__item-content">
                 <h3 class="about-info__item-content-title">
                   Время
@@ -234,7 +244,8 @@
                 </h3>
               </div>
             </div>
-            <div class="about-info__item about-info__item--price">
+            <div class="about-info__item about-info__item--price wow fadeInUp" data-wow-offset="250"
+              data-wow-delay=".7s" data-wow-duration="1.5s">
               <div class="about-info__item-content">
                 <h3 class="about-info__item-content-title">
                   Цена
@@ -244,7 +255,8 @@
                 </h3>
               </div>
             </div>
-            <div class="about-info__item about-info__item--age">
+            <div class="about-info__item about-info__item--age wow fadeInUp" data-wow-offset="250" data-wow-delay="1.1s"
+              data-wow-duration="1.5s">
               <div class="about-info__item-content">
                 <h3 class="about-info__item-content-title">
                   Возраст
@@ -255,7 +267,8 @@
               </div>
             </div>
           </div>
-          <a class="about-info__btn btn" href="#buy">Купить билет</a>
+          <a class="about-info__btn btn wow fadeInUp" data-wow-offset="100" data-wow-delay="1.5s"
+            data-wow-duration="1.5s" href="#buy">Купить билет</a>
         </div>
       </div>
     </div>
@@ -273,7 +286,7 @@
     </div>
     <div class="gallery__content">
       <div class="container">
-        <div class="gallery__content-items wow fadeIn" data-wow-offset="100" data-wow-delay=".5s">
+        <div class="gallery__content-items wow fadeInLeftBig" data-wow-offset="150" data-wow-duration="1.5s">
           <div class="gallery__content-item gallery__content-item--1"
             style="background-image: url('../images/gallery/item1.jpg');background-position: left center;"><a
               class="gallery__content-item-link" href="images/gallery/fancybox/item1.jpg" data-fancybox="gallery">
@@ -332,11 +345,13 @@
   <section class="reviews" id="reviews">
     <div class="container">
       <div class="reviews__inner">
-        <h1 class="reviews__title title">ОТЗЫВЫ</h1>
+        <h1 class="reviews__title title wow fadeInLeftBig" data-wow-offset="150" data-wow-duration="1.5s"
+          data-wow-delay=".3s">ОТЗЫВЫ</h1>
         <div class="reviews__arrows"></div>
       </div>
     </div>
-    <div class="reviews__container wow fadeInUp" data-wow-offset="100" data-wow-delay=".5s">
+    <div class="reviews__container wow fadeInLeftBig" data-wow-offset="150" data-wow-duration="1.5s"
+      data-wow-delay=".5s">
       <div class="reviews__items">
         <div class="reviews__item">
           <div class="reviews__item-stars">
@@ -531,7 +546,8 @@
         </div>
       </div>
     </div>
-    <a class="reviews__btn btn" href="#reviews__popup">Оставить отзыв</a>
+    <a class="reviews__btn btn wow fadeInLeftBig" data-wow-offset="0" data-wow-duration="1.5s" data-wow-delay=".9s"
+      href="#reviews__popup">Оставить отзыв</a>
     <div class="reviews__popup-wrapper">
       <div id="reviews__popup" class="zoom-anim-dialog mfp-hide reviews__popup">
         <form class="reviews-form">
@@ -654,31 +670,35 @@
   </section>
   <section class="buy" id="buy">
     <div class="container">
-      <h1 class="buy__form-title title">КУПИТЬ БИЛЕТ</h1>
-      <form class="buy__form wow fadeInUpBig" data-wow-offset="100" data-wow-delay=".3s">
+      <h1 class="buy__form-title title wow fadeInLeft" data-wow-offset="100" data-wow-duration="1.5s"
+        data-wow-delay=".3s">КУПИТЬ БИЛЕТ</h1>
+      <form class="buy__form">
         <div class="buy__form-box buy__form-box--inputs">
-          <label class="buy__form-date">
+          <label class="buy__form-date wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s" data-wow-delay=".7s">
             <h2 class="buy__form-input-title">
               Выберите дату посещения
             </h2>
-            <input class="buy__form-input" id="datepicker" type="text" placeholder="dd/mm/yyyy*" required>
+            <input class="buy__form-input" id="datepicker" placeholder="dd/mm/yyyy*" required>
           </label>
-          <label class="buy__form-email">
+          <label class="buy__form-email wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s" data-wow-delay=".9s">
             <h2 class="buy__form-input-title">
               Введите Вашу почту
             </h2>
             <input class="buy__form-input" type="email" placeholder="E-mail*" maxlength="30" required>
           </label>
-          <label class="buy__form-phone">
+          <label class="buy__form-phone wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay="1.1s">
             <h2 class="buy__form-input-title">
               Введите Ваш номер телефона
             </h2>
             <input class="buy__form-input phone" type="text" placeholder="+7 (___) ___-__-__*" required>
           </label>
-          <input class="buy__form-btn btn" type="submit" value="Купить билет">
+          <input class="buy__form-btn btn wow fadeInLeftBig" data-wow-offset="20" data-wow-duration="1.5s"
+            data-wow-delay="1.4s" type="submit" value="Купить билет">
         </div>
         <div class="buy__form-box buy__form-box--tickets">
-          <div class="buy__form-ticket">
+          <div class="buy__form-ticket wow fadeInUp" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay="1.1s">
             <h2 class="buy__form-ticket-title">ДЕТСКИЙ</h2>
             <h3 class="buy__form-ticket-price">
               150 руб.
@@ -695,7 +715,8 @@
               <input class="buy__form-ticket-amount-input" type="number" value="0" min="0" max="99" required>
             </label>
           </div>
-          <div class="buy__form-ticket">
+          <div class="buy__form-ticket wow fadeInUp" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay="1.3s">
             <h2 class="buy__form-ticket-title">ВЗРОСЛЫЙ</h2>
             <h3 class="buy__form-ticket-price">
               300 руб.
@@ -719,10 +740,12 @@
   </section>
   <section class="question">
     <div class="container">
-      <div class="question__inner wow fadeInUpBig" data-wow-offset="100" data-wow-delay=".3s">
-        <h1 class="question__title title">ВОЗНИКЛИ ВОПРОСЫ?
+      <div class="question__inner">
+        <h1 class="question__title title wow fadeInDown" data-wow-offset="200" data-wow-duration="1.5s"
+          data-wow-delay=".3s">ВОЗНИКЛИ ВОПРОСЫ?
         </h1>
-        <h2 class="question__subtitle">
+        <h2 class="question__subtitle wow fadeInDown" data-wow-offset="200" data-wow-duration="1.5s"
+          data-wow-delay=".5s">
           Напишите нам!
         </h2>
         <form class="question__form">
@@ -731,16 +754,21 @@
           <input type="hidden" name="admin_email" value="ilijagolubev@gmail.com">
           <input type="hidden" name="form_subject" value="Question form">
           <!-- END Hidden Required Fields -->
-          <input class="question__form-input" type="text" name="Имя" placeholder="Имя*" required>
-          <input class="question__form-input phone" type="text" name="Телефон" placeholder="+7 (___) ___-__-__*"
-            required>
-          <input class="question__form-input" type="email" name="E-mail" placeholder="E-mail*" maxlength="30" required>
-          <textarea class="question__form-textarea" placeholder="Ваш вопрос" name="Вопрос"></textarea>
+          <input class="question__form-input wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay=".5s" type="text" name="Имя" placeholder="Имя*" required>
+          <input class="question__form-input phone wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay=".7s" type="text" name="Телефон" placeholder="+7 (___) ___-__-__*" required>
+          <input class="question__form-input wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay=".9s" type="email" name="E-mail" placeholder="E-mail*" maxlength="30" required>
+          <textarea class="question__form-textarea wow fadeIn" data-wow-offset="100" data-wow-duration="1.5s"
+            data-wow-delay="1.1s" placeholder="Ваш вопрос" name="Вопрос"></textarea>
           <div class="question__form-box">
-            <p class="question__form-text text">
+            <p class="question__form-text text wow fadeInLeftBig" data-wow-offset="100" data-wow-duration="1.5s"
+              data-wow-delay="1.3s">
               Отправляя заявку, Вы даете согласие на обработку <span>персональных данных</span>
             </p>
-            <input class="question__form-btn btn" type="submit" value="Отправить">
+            <input class="question__form-btn btn wow fadeInRightBig" data-wow-offset="100" data-wow-duration="1.5s"
+              data-wow-delay="1.3s" type="submit" value="Отправить">
             <div id="question-thanks" class="question-thanks zoom-anim-dialog mfp-hide">
               <h1 class="question-thanks__title title">
                 Сообщение отправлено!
@@ -754,11 +782,13 @@
   <section class="contacts" id="contacts">
     <div class="container">
       <div class="contacts__inner">
-        <div class="contacts__content wow slideInLeft" data-wow-offset="100" data-wow-delay=".3s">
-          <h1 class="contacts__content-title title">
+        <div class="contacts__content">
+          <h1 class="contacts__content-title title wow fadeIn" data-wow-offset="100" data-wow-delay=".3s"
+            data-wow-duration="1.5s">
             КОНТАКТЫ
           </h1>
-          <div class="contacts__content-item">
+          <div class="contacts__content-item wow fadeIn" data-wow-offset="100" data-wow-delay=".5s"
+            data-wow-duration="1.5s">
             <h3 class="contacts__content-item-title">
               Адрес
             </h3>
@@ -766,50 +796,55 @@
               ул. Брамса, 9, Калининград, 236022
             </p>
           </div>
-          <div class="contacts__content-item">
+          <div class="contacts__content-item wow fadeIn" data-wow-offset="100" data-wow-delay=".7s"
+            data-wow-duration="1.5s">
             <h3 class="contacts__content-item-title">
               Телефон
             </h3>
-            <a class="contacts__content-item-text text" href="tel:+79114777280">
+            <a class="contacts__content-item-text contacts__content-item-link text " href="tel:+79114777280">
               +7 (911) 477-72-80
             </a>
           </div>
-          <div class="contacts__content-item">
+          <div class="contacts__content-item wow fadeIn" data-wow-offset="100" data-wow-delay=".9s"
+            data-wow-duration="1.5s">
             <h3 class="contacts__content-item-title">
               E-mail
             </h3>
-            <a class="contacts__content-item-text text" href="mailto:info@world-ofmaze.ru">
+            <a class="contacts__content-item-text contacts__content-item-link text " href="mailto:info@world-ofmaze.ru">
               info@world-ofmaze.ru
             </a>
           </div>
           <ul class="contacts__content-list">
-            <a class="contacts__content-list-link" href="404.html">
-              <li class="contacts__content-list-link-item">
+            <li class="contacts__content-list-item wow fadeIn" data-wow-offset="100" data-wow-delay=".9s"
+              data-wow-duration="1.5s">
+              <a class="contacts__content-list-link" href="404.html">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path
                     d="M2.56707 0H17.4329C18.8447 0 19.9998 1.04523 19.9998 2.56687V17.4331C19.9998 18.9548 18.8447 20 17.4329 20H2.56707C1.15488 20 0 18.9548 0 17.4331V2.56687C0 1.04523 1.15488 0 2.56707 0ZM14.5691 2.22209C14.0738 2.22209 13.6691 2.62703 13.6691 3.12254V5.27768C13.6691 5.77299 14.0738 6.17814 14.5691 6.17814H16.8296C17.3249 6.17814 17.7301 5.77299 17.7301 5.27768V3.12254C17.7301 2.62703 17.3249 2.22209 16.8296 2.22209H14.5691ZM17.7395 8.45793H15.9793C16.1458 9.00169 16.2359 9.5777 16.2359 10.1736C16.2359 13.5003 13.4522 16.1969 10.019 16.1969C6.58596 16.1969 3.80266 13.5003 3.80266 10.1736C3.80266 9.57729 3.8926 9.00149 4.05935 8.45793H2.2225V16.9062C2.2225 17.3434 2.58021 17.7013 3.01761 17.7013H16.9448C17.3822 17.7013 17.7399 17.3436 17.7399 16.9062V8.45793H17.7395ZM10.0188 6.06458C7.80061 6.06458 6.00216 7.80697 6.00216 9.95657C6.00216 12.1062 7.80061 13.8486 10.0188 13.8486C12.2372 13.8486 14.0358 12.1062 14.0358 9.95657C14.0358 7.80697 12.2374 6.06458 10.0188 6.06458Z"
                     fill="#FDFDFD" />
                 </svg>
-              </li>
-            </a>
-            <a class="contacts__content-list-link" href="#">
-              <li class="contacts__content-list-link-item">
+              </a>
+            </li>
+            <li class="contacts__content-list-item wow fadeIn" data-wow-offset="100" data-wow-delay="1.1s"
+              data-wow-duration="1.5s">
+              <a class="contacts__content-list-link" href="404.html">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path
                     d="M20 3.61674C19.8662 3.89918 19.6172 4.25593 19.2531 4.68698C18.8889 5.11803 18.4393 5.49708 17.9041 5.82409C17.919 5.94303 17.9302 6.05449 17.9376 6.15854C17.9953 7.76055 17.6116 9.42266 17.0792 10.8074C16.0472 13.3819 14.4659 15.454 12.2074 16.8609C9.85212 18.2119 7.10915 18.4992 4.58193 18.2544C2.90417 18.0617 1.25055 17.5139 0 16.4819C2.28722 16.7553 4.42175 15.9772 6.10925 14.7204C4.23472 14.7679 2.87273 13.4118 2.22967 11.8442C2.51955 11.9201 2.8228 11.911 3.09923 11.8888C3.4395 11.8568 3.7625 11.8249 4.08028 11.755C2.885 11.3693 1.83913 10.6604 1.29322 9.59222C0.973 8.91538 0.828417 8.27085 0.825 7.54093C1.38508 7.83581 2.0588 8.12321 2.67562 8.09833C1.74408 7.30921 0.997283 6.30071 0.85845 5.14403C0.7708 4.17959 1.01213 3.29923 1.36013 2.47959C2.75358 4.01101 4.31705 5.27129 6.12043 6.04704C7.35373 6.55208 8.58353 6.82216 9.85512 6.82741C9.70833 5.69166 9.82247 4.59324 10.3568 3.66129C10.9856 2.65933 11.9031 2.07799 12.9321 1.78837C14.4044 1.41084 15.8403 1.94412 16.7448 2.97009C17.7201 2.86474 18.6545 2.43204 19.3981 1.98904C19.0821 2.94588 18.4668 3.89724 17.5698 4.35248C18.4239 4.19434 19.2389 3.94149 20 3.61674Z"
                     fill="#FDFDFD" />
                 </svg>
-              </li>
-            </a>
-            <a class="contacts__content-list-link" href="#">
-              <li class="contacts__content-list-link-item">
+              </a>
+            </li>
+            <li class="contacts__content-list-item wow fadeIn" data-wow-offset="100" data-wow-delay="1.3s"
+              data-wow-duration="1.5s">
+              <a class="contacts__content-list-link" href="404.html">
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                   <path
                     d="M14.9841 0H5C2.25397 0 0 2.25397 0 5.01587V15C0 17.746 2.25397 20 5 20H14.9841C17.746 20 20 17.746 20 14.9841V5.01587C20 2.25397 17.746 0 14.9841 0ZM9.46032 4.11111C9.49206 3.61905 9.95238 3.79365 10.1905 3.7619C13.1746 3.85714 15.746 6.53968 15.7143 9.42857C15.7143 9.71429 15.8095 10.127 15.381 10.127C14.9683 10.127 15.0794 9.69841 15.0317 9.4127C14.6349 6.34921 13.2063 4.90476 10.0952 4.42857C9.84127 4.39683 9.44444 4.44444 9.46032 4.11111ZM13.9206 9.55556C13.4444 9.61905 13.5397 9.20635 13.4921 8.93651C13.1746 7.06349 12.5079 6.38095 10.5873 5.96825C10.3016 5.90476 9.85714 5.95238 9.93651 5.52381C10 5.11111 10.3968 5.25397 10.6984 5.28571C12.619 5.50794 14.1905 7.14286 14.1746 8.93651C14.1429 9.12698 14.2698 9.49206 13.9206 9.55556ZM12.7302 8.57143C12.7302 8.8254 12.6984 9.06349 12.4127 9.09524C12.2063 9.12698 12.0794 8.95238 12.0476 8.74603C11.9683 7.98413 11.5556 7.52381 10.7619 7.39683C10.5238 7.36508 10.3016 7.28571 10.4127 6.96825C10.4921 6.76191 10.6825 6.73016 10.8889 6.73016C11.746 6.71429 12.7302 7.71429 12.7302 8.57143ZM15.746 14.4286C15.4127 15.3333 14.2857 16.254 13.3175 16.2381C13.1746 16.2064 12.9048 16.1587 12.6667 16.0635C8.4127 14.2698 5.31746 11.3175 3.57143 7.09524C2.98413 5.68254 3.60317 4.47619 5.07937 4C5.34921 3.90476 5.60317 3.90476 5.87302 4C6.50794 4.22222 8.11111 6.39683 8.14286 7.03175C8.1746 7.52381 7.8254 7.79365 7.49206 8.01587C6.84127 8.44444 6.84127 8.98413 7.12698 9.60318C7.74603 10.9683 8.80952 11.9206 10.1905 12.5238C10.6825 12.746 11.1746 12.7302 11.5079 12.2222C12.1111 11.3175 12.8571 11.3651 13.6667 11.9206C14.0794 12.2063 14.4921 12.4762 14.873 12.7778C15.3968 13.2063 16.0635 13.5556 15.746 14.4286Z"
                     fill="#FDFDFD" />
                 </svg>
-              </li>
-            </a>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -832,31 +867,31 @@
           </p>
           <nav class="footer-nav">
             <ul class="footer-nav__list">
-              <a class="footer-nav__list-link " href="#about">
-                <li class="footer-nav__list-link-item">
+              <li class="footer-nav__list-item">
+                <a class="footer-nav__list-link " href="#about">
                   О КВЕСТЕ
-                </li>
-              </a>
-              <a class="footer-nav__list-link " href="#gallery">
-                <li class="footer-nav__list-link-item">
+                </a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a class="footer-nav__list-link " href="#gallery">
                   ГАЛЕРЕЯ
-                </li>
-              </a>
-              <a class="footer-nav__list-link " href="#reviews">
-                <li class="footer-nav__list-link-item">
+                </a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a class="footer-nav__list-link " href="#reviews">
                   ОТЗЫВЫ
-                </li>
-              </a>
-              <a class="footer-nav__list-link " href="#buy">
-                <li class="footer-nav__list-link-item">
+                </a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a class="footer-nav__list-link " href="#buy">
                   КУПИТЬ
-                </li>
-              </a>
-              <a class="footer-nav__list-link " href="#contacts">
-                <li class="footer-nav__list-link-item">
+                </a>
+              </li>
+              <li class="footer-nav__list-item">
+                <a class="footer-nav__list-link " href="#contacts">
                   КОНТАКТЫ
-                </li>
-              </a>
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -866,9 +901,9 @@
             ул. Брамса, 9, Калининград, 236022
           </p>
           <div class="footer-bottom__box">
-            <p class="footer-bottom__text footer__text">
+            <a class="footer-bottom__link" href="mailto:info@world-ofmaze.ru">
               info@world-ofmaze.ru
-            </p>
+            </a>
             <a class="footer-bottom__link" href="tel:+79114777280">
               +7 (911) 477-72-80
             </a>

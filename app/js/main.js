@@ -35,10 +35,10 @@ $(function () {
     boxClass: 'wow',
     animateClass: 'animated',
     offset: 0,
-    mobile: true,
-    live: true
+    mobile: false,
+    live: true,
   })
-  new WOW().init();
+  wow.init();
   let vh = window.innerHeight * 0.01;
   document.documentElement.style.setProperty('--vh', `${vh}px`);
   $('.nav__burger').on('click', function () {
@@ -61,8 +61,7 @@ $(function () {
   $('.about-stations').slick({
     arrows: false,
     dots: true,
-    autoplay: true,
-    autoplaySpeed: 7000,
+    autoplay: false,
     speed: 500,
   });
   $('.reviews__items').slick({
@@ -109,6 +108,12 @@ $(function () {
       autoplay: 0,
       start: 47,
     }
+  });
+  $('.authorization__form-input, .registration__form-input, .reviews-form__input, .buy__form-input, .buy__form-ticket-amount-input, .question__form-input, .profile__form-input, textarea').on('mouseover', function () {
+    $(this).addClass('input--active');
+  });
+  $('.authorization__form-input, .registration__form-input, .reviews-form__input, .buy__form-input, .buy__form-ticket-amount-input, .question__form-input, .profile__form-input, textarea').on('mouseout', function () {
+    $(this).removeClass('input--active');
   });
   $('.buy__form-ticket-amount-input').styler();
   $(".reviews-form").submit(function () { //Change
